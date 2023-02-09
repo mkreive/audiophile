@@ -1,5 +1,5 @@
 import classNames from 'classnames/bind';
-import styles from './notfound-page.module';
+import styles from './notfound-page.module.scss';
 
 const cn = classNames.bind(styles);
 

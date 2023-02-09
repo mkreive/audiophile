@@ -1,8 +1,8 @@
+import { ScrollRestoration, Outlet } from 'react-router-dom';
 import classNames from 'classnames/bind';
-import styles from './root-layout.module';
-import { Header, Footer } from '~/layouts';
-import { Outlet } from 'react-router-dom';
-import { ScrollRestoration } from 'react-router-dom';
+import styles from './root-layout.module.scss';
+import { Header } from '../Header';
+import { Footer } from '../Footer';
 
 const cn = classNames.bind(styles);
 

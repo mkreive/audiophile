@@ -1,5 +1,5 @@
 import classNames from 'classnames/bind';
-import styles from './footer.module';
+import styles from './footer.module.scss';
 
 const cn = classNames.bind(styles);
 
