@@ -1,0 +1,44 @@
+:root {
+  /* COLORS*/
+  --color-primary: #d87d4a;
+  --color-secondary: #fbaf85;
+  --color-white: #fff;
+  --color-white-darkened: #fafafa;
+  --color-black: #000;
+  --color-black-lightened: #101010;
+  --color-gray-light: #f1f1f1;
+  --color-gray-medium: #979797;
+  --color-red: #cd2c2c;
+
+  /* BORDERS */
+  --border-gray: 0.1rem solid var(--color-gray-light);
+  --border-primary: 0.1rem solid var(--color-primary);
+  --border-alert: 0.1rem solid var(--color-red);
+
+  /* BORDER RADIUS */
+  --border-radius-small: 0.2rem;
+  --border-radius-medium: 0.5rem;
+
+  /* TYPOGRAPHY */
+  --font-size-base: 1.8rem;
+  --font-size-heading-big: 4.8rem;
+  --font-size-heading-medium: 3.2rem;
+  --font-size-heading-small: 2rem;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-family: 'Manrope', sans-serif;
+  --line-height-base: 1.5;
+
+  /* SPACERS */
+  --spacer-xxs: 0.1rem;
+  --spacer-xs: 0.2rem;
+  --spacer-s: 1.2rem;
+  --spacer-m: 1.6rem;
+  --spacer-l: 2rem;
+  --spacer-xl: 2.4rem;
+  --spacer-xxl: 3.2rem;
+  --spacer-xxxl: 4rem;
+  --spacer-xxxxl: 5rem;
+  --spacer-xxxxxl: 7rem;
+  --spacer-xxxxxxl: 8rem;
+}
