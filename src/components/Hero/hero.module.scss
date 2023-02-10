@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 73rem;
+  background-color: var(--color-black-medium);
+  position: relative;
+  padding-top: 9.6rem;
+  align-items: center;
+}
+
+.content {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
