@@ -1,1 +1,1 @@
-export { default as Hero } from './ShopLinks';
+export { default as ShopLinks } from './ShopLinks';
