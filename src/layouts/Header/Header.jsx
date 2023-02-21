@@ -1,8 +1,6 @@
 import classNames from 'classnames/bind';
 import styles from './header.module.scss';
-import Logo from '../../components/Logo/Logo';
-import CartIcon from '../../components/Cart/CartIcon';
-import Navigation from '../../components/Navigation/Navigation';
+import { Logo, CartIcon, Navigation } from 'components';
 
 const cn = classNames.bind(styles);
 

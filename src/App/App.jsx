@@ -6,8 +6,8 @@ import {
 } from 'react-router-dom';
 import classNames from 'classnames/bind';
 import styles from './app.module.scss';
-import { RootLayout } from '../layouts/RootLayout';
-import { HomePage } from '../pages/index';
+import { RootLayout } from 'layouts';
+import { HomePage } from 'pages';
 
 // import {
 //   HomePage,

@@ -1,4 +1,4 @@
-export * from './Button';
+// export * from './Button';
 export * from './Hero';
 export * from './ShopLinks';
 export * from './Logo';

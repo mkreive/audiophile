@@ -2,13 +2,13 @@
 @import 'variables';
 
 /* Utilities  */
-@import 'utilities/index';
+@import 'utilities';
 
 /* Base styles */
-@import 'base/index';
+@import 'base';
 
 /* Layout */
-@import 'layout/index';
+@import 'layout';
 
 /* Print stylesheet */
-@import 'vendor/print';
+@import 'vendor';
