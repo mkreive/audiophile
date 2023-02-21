@@ -36,7 +36,7 @@ const router = createBrowserRouter(
 
 export default function App() {
   return (
-    <div className={cn('app')}>
+    <div className={cn('container')}>
       <RouterProvider router={router} />
     </div>
   );
