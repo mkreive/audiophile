@@ -7,10 +7,18 @@ const cn = classNames.bind(styles);
 export default function Navigation() {
   return (
     <nav className={cn('container')}>
-      <Link className={cn('link')}>Home</Link>
-      <Link className={cn('link')}>Headphones</Link>
-      <Link className={cn('link')}>Speakers</Link>
-      <Link className={cn('link')}>Earphones</Link>
+      <Link to='/home' className={cn('link')}>
+        Home
+      </Link>
+      <Link to='/headphones' className={cn('link')}>
+        Headphones
+      </Link>
+      <Link to='/speakers' className={cn('link')}>
+        Speakers
+      </Link>
+      <Link to='/earphones' className={cn('link')}>
+        Earphones
+      </Link>
     </nav>
   );
 }

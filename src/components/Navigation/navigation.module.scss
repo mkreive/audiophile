@@ -1,9 +1,27 @@
+@import '../../sass/global.scss';
+
 .container {
+  @include respond(tab-port) {
+    display: none;
+  }
+
   display: flex;
   justify-content: space-evenly;
   gap: 2rem;
 }
 
 .link {
+  transition: all 0.2s ease;
   color: var(--color-white);
+  text-transform: uppercase;
+  font-size: var(--font-size-xsmall);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-big);
+  text-decoration: none;
+  letter-spacing: var(--spacer-xs);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--color-primary);
+  }
 }
