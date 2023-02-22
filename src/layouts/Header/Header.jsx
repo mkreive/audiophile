@@ -17,10 +17,12 @@ export default function Header() {
   return (
     <>
       <header className={cn('container')}>
-        {isTabletOrMobile && <MobileNavigation onChange={handleMenuClick} />}
-        <Logo />
-        {!isTabletOrMobile && <Navigation />}
-        <CartIcon />
+        <div className={cn('container__items')}>
+          {isTabletOrMobile && <MobileNavigation onChange={handleMenuClick} />}
+          <Logo />
+          {!isTabletOrMobile && <Navigation />}
+          <CartIcon />
+        </div>
       </header>
       {dropMenuShown && <Menu />}
     </>
