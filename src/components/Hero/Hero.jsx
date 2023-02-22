@@ -27,7 +27,6 @@ export default function Hero() {
             See Product
           </Button>
         </article>
-        <div className={cn('cover')}></div>
       </div>
     </div>
   );
