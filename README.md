@@ -55,7 +55,37 @@ Users should be able to:
 
 ### What I learned
 
-### Continued development
+### Continued development/Planning
+
+7. button
+8. hero + tab + mobile versions
+9. menu component
+10. add menu in mobile
+11. footer
+12. card
+13. product posters 3
+14. product big
+15. product small
+16. article component
+17. home page finished
+
+---
+
+18. hero small
+19. headphones page
+20. speakers page
+21. earphones page
+22. product detail page
+
+---
+
+23. cart
+24. checkout
+25. modal
+
+---
+
+26. database
 
 ## Author
 

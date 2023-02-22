@@ -1,13 +1,20 @@
 import classNames from 'classnames/bind';
-import styles from './button.module';
+import styles from './button.module.scss';
 import PropTypes from 'prop-types';
 
 const cn = classNames.bind(styles);
 
-export default function Button({ content = 'Click' }) {
-  return <button className={cn('btn')}>{content}</button>;
+export default function Button({ children, onClick, theme, type = 'button' }) {
+  return (
+    <button onClick={onClick} type={type} className={cn('btn', theme)}>
+      {children}
+    </button>
+  );
 }
 
 Button.propTypes = {
-  content: PropTypes.string,
+  children: PropTypes.string,
+  onClick: PropTypes.func,
+  type: PropTypes.string,
+  theme: PropTypes.string,
 };

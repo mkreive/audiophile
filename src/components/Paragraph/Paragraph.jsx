@@ -4,11 +4,11 @@ import PropTypes from 'prop-types';
 
 const cn = classNames.bind(styles);
 
-export default function Paragraph({ type, children }) {
-  return <p className={cn(type)}>{children}</p>;
+export default function Paragraph({ theme, children }) {
+  return <p className={cn(theme)}>{children}</p>;
 }
 
 Paragraph.propTypes = {
-  type: PropTypes.string,
+  theme: PropTypes.string,
   children: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
 };

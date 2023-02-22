@@ -1,5 +1,41 @@
 .btn {
-  padding: 2rem 4rem;
-  border-radius: 1rem;
-  background-color: #d87d4a;
+  font-size: var(--font-size-xsmall);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 1px;
+  padding: 1.5rem 3rem;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  width: max-content;
+  height: max-content;
+}
+
+.orange {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+
+  &:hover {
+    background-color: var(--color-secondary);
+  }
+}
+
+.white {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  border: 1px solid var(--color-black);
+
+  &:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+  }
+}
+
+.transparent {
+  background: right / auto no-repeat url('../../assets/png/arrow_orange.png') transparent;
+  color: var(--color-black);
+
+  &:hover {
+    color: var(--color-primary);
+    opacity: 1;
+  }
 }

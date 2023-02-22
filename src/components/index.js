@@ -1,4 +1,4 @@
-// export * from './Button';
+export * from './Button';
 export * from './Hero';
 export * from './Logo';
 export * from './Cart';
