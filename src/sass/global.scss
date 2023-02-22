@@ -1,14 +1,8 @@
-/* Import variables */
-@import 'variables';
-
 /* Utilities  */
-@import 'utilities/mixins';
-
-/* Base styles */
-@import 'base/index';
+@import 'utilities';
 
 /* Layout */
-@import 'layout/index';
+@import 'layout';
 
 /* Print stylesheet */
-@import 'vendor/print';
+@import 'vendor';

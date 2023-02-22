@@ -1,0 +1,17 @@
+@import '../../sass/global.scss';
+
+.container {
+  position: relative;
+}
+.icon {
+  line-height: 0;
+  cursor: pointer;
+  justify-self: flex-end;
+
+  @include respond(tablet) {
+    margin-left: auto;
+  }
+  @include respond(phone) {
+    margin-left: 0;
+  }
+}

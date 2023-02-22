@@ -1,12 +1,31 @@
+@import '../../sass/global.scss';
+
 .container {
-  position: relative;
-  z-index: 50;
-  width: 80%;
-  min-height: 9.6rem;
-  border-bottom: 0.1rem solid var(--color-gray-medium);
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  min-height: 9.6rem;
+  background-color: #141414;
+
+  &__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.1rem solid var(--color-gray-medium);
+    padding: 3.3rem 0 3.6rem 0;
+
+    width: 80%;
+
+    @include respond(tablet) {
+      justify-content: flex-start;
+    }
+
+    @include respond(phone) {
+      justify-content: space-between;
+    }
+  }
 }
 
 .logo {
