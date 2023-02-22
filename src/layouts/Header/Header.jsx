@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import classNames from 'classnames/bind';
 import styles from './header.module.scss';
-import { Logo, CartIcon, Navigation, MobileNavigation, DropMenu } from 'components';
+import { Logo, CartIcon, Navigation, MobileNavigation, Menu } from 'components';
 
 const cn = classNames.bind(styles);
 
@@ -15,12 +15,14 @@ export default function Header() {
   };
 
   return (
-    <header className={cn('container')}>
-      {isTabletOrMobile && <MobileNavigation onChange={handleMenuClick} />}
-      <Logo />
-      {!isTabletOrMobile && <Navigation />}
-      <CartIcon />
-      {dropMenuShown && <DropMenu />}
-    </header>
+    <>
+      <header className={cn('container')}>
+        {isTabletOrMobile && <MobileNavigation onChange={handleMenuClick} />}
+        <Logo />
+        {!isTabletOrMobile && <Navigation />}
+        <CartIcon />
+      </header>
+      {dropMenuShown && <Menu />}
+    </>
   );
 }

@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import classNames from 'classnames/bind';
-import styles from './drop-menu.module.scss';
+import styles from './menu.module.scss';
 
 const cn = classNames.bind(styles);
 
-export default function DropMenu() {
+export default function Menu() {
   return (
     <nav className={cn('container')}>
       <Link to='/home' className={cn('link')}>
