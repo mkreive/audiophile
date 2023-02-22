@@ -11,5 +11,12 @@
 .content {
   width: 80%;
   display: flex;
-  justify-content: space-between;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  justify-content: center;
+  max-width: 40rem;
 }

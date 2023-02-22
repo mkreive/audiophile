@@ -5,3 +5,4 @@ export * from './Cart';
 export * from './Navigation';
 export * from './MobileNavigation';
 export * from './Menu';
+export * from './Heading';
