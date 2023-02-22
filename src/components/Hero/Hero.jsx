@@ -1,6 +1,6 @@
 import classNames from 'classnames/bind';
 import styles from './hero.module.scss';
-import { Heading } from 'components';
+import { Heading, Paragraph } from 'components';
 
 const cn = classNames.bind(styles);
 
@@ -15,11 +15,10 @@ export default function Hero() {
           <Heading tag='h1' theme='white'>
             XX99 Mark II HeadphoneS
           </Heading>
-
-          <p>
+          <Paragraph type='white'>
             Experience natural, lifelike audio and exceptional build quality made for the passionate
             music enthusiast.
-          </p>
+          </Paragraph>
           <button>See Product</button>
         </article>
         <div className={cn('cover')}></div>
