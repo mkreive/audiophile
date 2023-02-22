@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import {
   Route,
   RouterProvider,
@@ -37,6 +38,11 @@ const router = createBrowserRouter(
 export default function App() {
   return (
     <div className={cn('container')}>
+      <Helmet>
+        <title>Audiophile</title>
+        <meta name='description' content='App Description' />
+        <meta name='theme-color' content='#008f68' />
+      </Helmet>
       <RouterProvider router={router} />
     </div>
   );
