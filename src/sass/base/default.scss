@@ -6,6 +6,8 @@
 *,
 *::before,
 *::after {
+  margin: 0;
+  padding: 0;
   box-sizing: inherit;
 }
 
@@ -25,6 +27,13 @@ body {
   min-width: 100%;
 }
 
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
 p,
 li,
 h1,
@@ -35,6 +44,7 @@ h5,
 h6,
 a,
 button {
+  overflow-wrap: break-word;
   &::selection {
     background-color: var(--color-secondary);
     text-shadow: none;
@@ -57,4 +67,9 @@ img {
 table {
   table-layout: fixed;
   width: 100%;
+}
+
+#root,
+#__next {
+  isolation: isolate;
 }

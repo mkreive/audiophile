@@ -1,0 +1,61 @@
+.h1 {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-largest);
+  letter-spacing: 2px;
+  line-height: 1.05;
+}
+
+.h2 {
+  text-transform: uppercase;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-xlarge);
+  letter-spacing: 1.5px;
+}
+
+.h3 {
+  text-transform: uppercase;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-large);
+  letter-spacing: 1.15px;
+}
+
+.h4 {
+  text-transform: uppercase;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-regular);
+  letter-spacing: 2px;
+}
+
+.h5 {
+  text-transform: uppercase;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-medium);
+  letter-spacing: 1.7px;
+}
+
+.h6 {
+  text-transform: uppercase;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-base);
+  letter-spacing: 1.3px;
+}
+
+.p {
+  text-transform: uppercase;
+  font-size: var(--font-size-small);
+  letter-spacing: 10px;
+}
+
+.white {
+  color: var(--color-white);
+}
+
+.orange {
+  color: var(--color-primary);
+}
+
+.gray {
+  color: var(--color-gray-medium);
+}
