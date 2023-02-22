@@ -3,7 +3,7 @@
   text-transform: uppercase;
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-largest);
-  letter-spacing: 2px;
+  letter-spacing: var(--letter-spacing-xlarge);
   line-height: 1.05;
 }
 
@@ -11,7 +11,7 @@
   text-transform: uppercase;
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-xlarge);
-  letter-spacing: 1.5px;
+  letter-spacing: var(--letter-spacing-medium);
 }
 
 .h3 {
@@ -32,20 +32,20 @@
   text-transform: uppercase;
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-medium);
-  letter-spacing: 1.7px;
+  letter-spacing: var(--letter-spacing-large);
 }
 
 .h6 {
   text-transform: uppercase;
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-base);
-  letter-spacing: 1.3px;
+  letter-spacing: var(--letter-spacing-small);
 }
 
 .p {
   text-transform: uppercase;
   font-size: var(--font-size-small);
-  letter-spacing: 10px;
+  letter-spacing: var(--letter-spacing-xxlarge);
 }
 
 .white {
@@ -58,4 +58,5 @@
 
 .gray {
   color: var(--color-gray-medium);
+  opacity: 0.5;
 }
