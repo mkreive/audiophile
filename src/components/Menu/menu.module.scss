@@ -1,7 +1,26 @@
+@import '../../sass/global.scss';
+
 .container {
   display: flex;
   flex-direction: row;
-  top: 9.6rem;
   width: 100%;
-  background-color: var(--color-white);
+  max-height: 30rem;
+  justify-content: space-between;
+  align-items: center;
+
+  @include respond(phone) {
+    flex-direction: column;
+  }
+}
+
+.link {
+  text-decoration: none;
+
+  &:focus,
+  &:hover,
+  &:visited,
+  &:link,
+  &:active {
+    text-decoration: none;
+  }
 }

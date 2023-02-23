@@ -1,0 +1,8 @@
+.container {
+  max-width: 35rem;
+  max-height: 29rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--color-primary);
+}
