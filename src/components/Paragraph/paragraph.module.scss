@@ -1,9 +1,15 @@
+@import '../../sass/global.scss';
+
 p {
   font-size: var(--font-size-text);
   font-weight: var(--font-weight-medium);
   opacity: 0.75;
   line-height: var(--line-height-medium);
   letter-spacing: var(--letter-spacing-xsmall);
+
+  @include respond(phone) {
+    font-size: var(--font-size-small);
+  }
 }
 
 .white {

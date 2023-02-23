@@ -15,16 +15,14 @@ export default function Header() {
   };
 
   return (
-    <>
-      <header className={cn('container')}>
-        <div className={cn('container__items')}>
-          {isTabletOrMobile && <MobileNavigation onChange={handleMenuClick} />}
-          <Logo />
-          {!isTabletOrMobile && <Navigation />}
-          <CartIcon />
-        </div>
-      </header>
+    <header className={cn('container')}>
+      <div className={cn('container__items')}>
+        {isTabletOrMobile && <MobileNavigation onChange={handleMenuClick} />}
+        <Logo />
+        {!isTabletOrMobile && <Navigation />}
+        <CartIcon />
+      </div>
       {dropMenuShown && <Menu />}
-    </>
+    </header>
   );
 }

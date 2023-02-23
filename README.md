@@ -57,7 +57,6 @@ Users should be able to:
 
 ### Continued development/Planning
 
-7. button
 8. hero + tab + mobile versions
 9. menu component
 10. add menu in mobile

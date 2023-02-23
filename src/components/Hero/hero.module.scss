@@ -1,22 +1,47 @@
+@import '../../sass/global.scss';
+
 .container {
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: 73rem;
+  min-height: 100%;
   background-color: var(--color-black-medium);
   position: relative;
   align-items: center;
 }
 
 .content {
-  width: 80%;
   display: flex;
+  position: relative;
+  height: 100%;
+  width: 80%;
+  background: 120% bottom / auto no-repeat url('../../assets/png/hero_earphones.png');
+
+  @include respond(tablet) {
+    width: 90%;
+    background: center bottom / auto no-repeat url('../../assets/png/hero_earphones.png');
+    align-items: center;
+    justify-content: center;
+  }
+  @include respond(phone) {
+    width: 100%;
+  }
 }
 
 .article {
+  margin-top: 13rem;
+  margin-bottom: 16rem;
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
-  justify-content: center;
   max-width: 40rem;
+
+  @include respond(tablet) {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  @include respond(phone) {
+    padding: 0 2.4rem;
+  }
 }

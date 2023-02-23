@@ -1,3 +1,5 @@
+@import '../../sass/global.scss';
+
 .h1 {
   margin: 0;
   text-transform: uppercase;
@@ -5,6 +7,10 @@
   font-size: var(--font-size-largest);
   letter-spacing: var(--letter-spacing-xlarge);
   line-height: 1.05;
+
+  @include respond(phone) {
+    font-size: var(--font-size-large);
+  }
 }
 
 .h2 {
@@ -12,6 +18,10 @@
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-xlarge);
   letter-spacing: var(--letter-spacing-medium);
+
+  @include respond(phone) {
+    font-size: var(--font-size-large);
+  }
 }
 
 .h3 {
@@ -19,6 +29,10 @@
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-large);
   letter-spacing: 1.15px;
+
+  @include respond(phone) {
+    font-size: var(--font-size-regular);
+  }
 }
 
 .h4 {
@@ -26,6 +40,10 @@
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-regular);
   letter-spacing: 2px;
+
+  @include respond(phone) {
+    font-size: var(--font-size-medium);
+  }
 }
 
 .h5 {
@@ -33,6 +51,10 @@
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-medium);
   letter-spacing: var(--letter-spacing-large);
+
+  @include respond(phone) {
+    font-size: var(--font-size-base);
+  }
 }
 
 .h6 {
@@ -40,12 +62,20 @@
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-base);
   letter-spacing: var(--letter-spacing-small);
+
+  @include respond(phone) {
+    font-size: var(--font-size-text);
+  }
 }
 
 .p {
   text-transform: uppercase;
   font-size: var(--font-size-small);
   letter-spacing: var(--letter-spacing-xxlarge);
+
+  @include respond(phone) {
+    font-size: var(--font-size-small);
+  }
 }
 
 .white {

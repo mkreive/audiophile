@@ -15,15 +15,17 @@
     justify-content: space-between;
     border-bottom: 0.1rem solid var(--color-gray-medium);
     padding: 3.3rem 0 3.6rem 0;
-
     width: 80%;
 
     @include respond(tablet) {
       justify-content: flex-start;
+      width: 90%;
     }
 
     @include respond(phone) {
       justify-content: space-between;
+      width: 100%;
+      padding: 3.2rem 2.4rem;
     }
   }
 }
