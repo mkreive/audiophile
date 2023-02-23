@@ -1,8 +1,8 @@
 import { Helmet } from 'react-helmet';
 import classNames from 'classnames/bind';
 import styles from './home-page.module.scss';
-import { Hero } from '../../components/Hero';
-import MainLayout from '../../layouts/MainLayout/MainLayout';
+import { Hero } from 'components';
+import { MainLayout } from 'layouts';
 
 const cn = classNames.bind(styles);
 
@@ -13,10 +13,7 @@ export default function HomePage() {
         <title>Audiophile - Home</title>
       </Helmet>
       <Hero />
-      <MainLayout>
-        {/* <ProductHighlightSection /> */}
-        {/* <Article /> */}
-      </MainLayout>
+      <MainLayout></MainLayout>
     </div>
   );
 }

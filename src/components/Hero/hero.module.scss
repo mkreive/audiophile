@@ -39,6 +39,7 @@
   @include respond(tablet) {
     align-items: center;
     justify-content: center;
+    text-align: center;
   }
   @include respond(phone) {
     padding: 0 2.4rem;
