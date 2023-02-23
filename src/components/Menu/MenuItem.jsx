@@ -6,16 +6,17 @@ import { Button, Heading } from 'components';
 const cn = classNames.bind(styles);
 
 export default function MenuItem({ item }) {
-  const imageSrc = `../../assets/png/menu/${item}.png`;
   const handleBtnClick = function () {
     console.log(item);
   };
 
   return (
     <div className={cn('container')}>
-      <img src={imageSrc} alt={item} />
-      <Heading tag='h6'>{item}</Heading>
-      <Button theme='' onClick={handleBtnClick}>
+      <div className={cn('image', item)} />
+      <Heading tag='h6' theme='black'>
+        {item}
+      </Heading>
+      <Button theme='transparent' onClick={handleBtnClick}>
         Shop
       </Button>
     </div>

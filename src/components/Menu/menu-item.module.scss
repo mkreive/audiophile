@@ -1,8 +1,28 @@
 .container {
-  max-width: 35rem;
-  max-height: 29rem;
+  width: 35rem;
+  height: 28rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--color-primary);
+  align-items: center;
+  background-color: var(--color-gray-light);
+  border-radius: 0.8rem;
+  background-size: 40%;
+}
+
+.image {
+  height: 16rem;
+  width: 12rem;
+}
+
+.headphones {
+  background: center / cover no-repeat url('../../assets/png/menu/headphones.png');
+}
+
+.earphones {
+  background: center / cover no-repeat url('../../assets/png/menu/earphones.png');
+}
+
+.speakers {
+  background: center / cover no-repeat url('../../assets/png/menu/speakers.png');
 }
