@@ -9,7 +9,7 @@ export default function MobileNavigation(props) {
 
   return (
     <nav className={cn('container')}>
-      <input id='menu-toggle' type='checkbox' onClick={handleMenuClick} />
+      <input id='menu-toggle' type='checkbox' onChange={handleMenuClick} checked={props.checked} />
       <label htmlFor='menu-toggle' className={cn('menu-button-container')}>
         <div className={cn('menu-button')}></div>
       </label>
@@ -19,4 +19,5 @@ export default function MobileNavigation(props) {
 
 MobileNavigation.propTypes = {
   onChange: PropTypes.func,
+  checked: PropTypes.bool,
 };

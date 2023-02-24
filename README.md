@@ -57,8 +57,6 @@ Users should be able to:
 
 ### Continued development/Planning
 
-9. menu component
-10. add menu in mobile
 11. footer
 12. card
 13. product posters 3
