@@ -11,6 +11,7 @@ export default function Header() {
   useOutsideAlerter(wrapperRef);
   const [dropMenuShown, setDropMenuShown] = useState(false);
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1024px)' });
+  const isMobile = useMediaQuery({ query: '(max-width: 700px)' });
 
   const handleMenuClick = function (event) {
     setDropMenuShown(event.checked);
@@ -40,7 +41,7 @@ export default function Header() {
         {!isTabletOrMobile && <Navigation />}
         <CartIcon />
       </div>
-      {dropMenuShown && <DropdownMenu />}
+      <DropdownMenu visible={dropMenuShown} mobile={isMobile} />
     </header>
   );
 }

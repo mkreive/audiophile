@@ -1,22 +1,26 @@
-import { Animated } from 'react-animated-css';
+import PropTypes from 'prop-types';
 import classNames from 'classnames/bind';
 import styles from './dropdown-menu.module.scss';
 import { Menu } from 'components';
 
 const cn = classNames.bind(styles);
 
-export default function DropdownMenu() {
+export default function DropdownMenu(props) {
   return (
-    <Animated
-      animationIn='slideInDown'
-      animationOut='slideOutUp'
-      animationInDuration={400}
-      animationOutDuration={400}
-      isVisible={true}
+    <div
+      className={cn('container')}
+      style={
+        { height: props.visible && !props.mobile && '350px' } || {
+          height: props.visible && props.mobile && '900px',
+        }
+      }
     >
-      <div className={cn('container')}>
-        <Menu />
-      </div>
-    </Animated>
+      <Menu />
+    </div>
   );
 }
+
+DropdownMenu.propTypes = {
+  visible: PropTypes.bool,
+  mobile: PropTypes.bool,
+};

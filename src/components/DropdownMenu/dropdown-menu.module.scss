@@ -1,19 +1,14 @@
 @import '../../sass/global.scss';
 
 .container {
-  transition: all 05s ease;
+  transition: all 500ms ease;
   position: absolute;
   width: 100%;
-  height: 35rem;
   top: 9.4rem;
   background-color: var(--color-white);
   border-end-start-radius: 0.8rem;
   border-end-end-radius: 0.8rem;
-  padding: 1rem 6rem 3rem 4rem;
-  z-index: 90;
-
-  @include respond(phone) {
-    height: auto;
-    top: 9.3rem;
-  }
+  padding: 0 4rem;
+  height: 0;
+  overflow: hidden;
 }
