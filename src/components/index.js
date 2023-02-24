@@ -7,3 +7,4 @@ export * from './MobileNavigation';
 export * from './Menu';
 export * from './Heading';
 export * from './Paragraph';
+export * from './DropdownMenu';
