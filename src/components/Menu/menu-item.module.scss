@@ -1,0 +1,53 @@
+@import '../../sass/global.scss';
+
+.container {
+  flex: 1;
+  width: 100%;
+  height: 28rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: flex-end;
+  padding-bottom: 1.5rem;
+
+  &:nth-child(2) {
+    position: relative;
+    z-index: 58;
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 20rem;
+    background-color: var(--color-gray-light);
+    border-radius: 0.8rem;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  @include respond(phone) {
+    flex-direction: column;
+  }
+}
+
+.image {
+  z-index: 55;
+  height: 16rem;
+  width: 12rem;
+  background-color: transparent;
+}
+
+.headphones {
+  background: center / cover no-repeat url('../../assets/png/menu/headphones.png');
+}
+
+.earphones {
+  background: center / cover no-repeat url('../../assets/png/menu/earphones.png');
+}
+
+.speakers {
+  background: center / cover no-repeat url('../../assets/png/menu/speakers.png');
+}

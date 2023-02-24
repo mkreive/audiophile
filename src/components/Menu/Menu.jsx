@@ -1,23 +1,21 @@
 import { Link } from 'react-router-dom';
 import classNames from 'classnames/bind';
 import styles from './menu.module.scss';
+import MenuItem from './MenuItem';
 
 const cn = classNames.bind(styles);
 
 export default function Menu() {
   return (
     <nav className={cn('container')}>
-      <Link to='/home' className={cn('link')}>
-        Home
-      </Link>
       <Link to='/headphones' className={cn('link')}>
-        Headphones
+        <MenuItem item='headphones' />
       </Link>
       <Link to='/speakers' className={cn('link')}>
-        Speakers
+        <MenuItem item='speakers' />
       </Link>
       <Link to='/earphones' className={cn('link')}>
-        Earphones
+        <MenuItem item='earphones' />
       </Link>
     </nav>
   );
