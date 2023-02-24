@@ -11,4 +11,8 @@
   padding: 0 4rem;
   height: 0;
   overflow: hidden;
+
+  @include respond(phone) {
+    top: 9.2rem;
+  }
 }

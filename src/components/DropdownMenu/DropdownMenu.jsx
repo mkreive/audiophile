@@ -9,11 +9,7 @@ export default function DropdownMenu(props) {
   return (
     <div
       className={cn('container')}
-      style={
-        { height: props.visible && !props.mobile && '350px' } || {
-          height: props.visible && props.mobile && '900px',
-        }
-      }
+      style={{ height: props.visible && (!props.mobile ? '350px' : '1100px') }}
     >
       <Menu />
     </div>
