@@ -33,6 +33,7 @@
 .transparent {
   background: 90% / auto no-repeat url('../../assets/png/arrow_orange.png') transparent;
   color: var(--color-gray-medium);
+  z-index: 88;
 
   &:hover {
     color: var(--color-primary);
