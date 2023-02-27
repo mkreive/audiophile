@@ -1,7 +1,14 @@
+@import '../../sass/global.scss';
+
 .container {
   display: flex;
   justify-content: space-evenly;
   gap: 2rem;
+
+  @include respond(phone) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .link {
@@ -12,7 +19,7 @@
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-big);
   text-decoration: none;
-  letter-spacing: var(--spacer-xs);
+  letter-spacing: var(--letter-spacing-xlarge);
   cursor: pointer;
 
   &:hover {
