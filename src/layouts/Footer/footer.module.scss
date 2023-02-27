@@ -1,5 +1,108 @@
+@import '../../sass/global.scss';
+
 .container {
   width: 100vw;
-  height: 20rem;
+  height: auto;
   background-color: var(--color-black-medium);
+  display: flex;
+  justify-content: center;
+
+  &-wrapper {
+    position: relative;
+    width: 80%;
+    padding-top: var(--spacer-xxxxxl);
+    padding-bottom: var(--spacer-xxxl);
+
+    @include respond(phone) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      height: 0.4rem;
+      width: 10rem;
+      background-color: var(--color-primary);
+      top: 0;
+    }
+
+    @include respond(tablet) {
+      padding-bottom: 3rem;
+    }
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3.5rem;
+
+  @include respond(tablet) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacer-xxl);
+  }
+  @include respond(phone) {
+    align-items: center;
+  }
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  @include respond(tablet) {
+    flex-direction: column;
+  }
+
+  @include respond(phone) {
+    flex-direction: column;
+  }
+
+  &--left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: var(--spacer-xxxxl);
+
+    @include respond(phone) {
+      align-items: center;
+      gap: var(--spacer-xxxl);
+    }
+  }
+
+  &--right {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: row;
+    gap: var(--spacer-m);
+    flex: 1;
+    justify-content: flex-end;
+
+    @include respond(tablet) {
+      transform: translateY(-2rem);
+    }
+
+    @include respond(phone) {
+      margin-top: var(--spacer-xxxl);
+      justify-content: center;
+      transform: translateY(0rem);
+    }
+  }
+}
+
+.icon:hover {
+  svg path {
+    transition: all 0.2s ease;
+    fill: var(--color-primary);
+  }
 }

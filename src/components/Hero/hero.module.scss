@@ -33,7 +33,7 @@
   margin-bottom: 16rem;
   display: flex;
   flex-direction: column;
-  gap: 2.4rem;
+  gap: var(--spacer-xl);
   max-width: 40rem;
 
   @include respond(tablet) {
@@ -42,10 +42,10 @@
     text-align: center;
   }
   @include respond(phone) {
-    padding: 0 2.4rem;
+    padding: 0 var(--spacer-xl);
   }
 }
 
 .article button {
-  margin-top: 1.6rem;
+  margin-top: var(--spacer-m);
 }
