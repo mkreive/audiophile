@@ -3,9 +3,7 @@
 p {
   font-size: var(--font-size-text);
   font-weight: var(--font-weight-medium);
-  opacity: 0.75;
   line-height: var(--line-height-medium);
-  letter-spacing: var(--letter-spacing-xsmall);
 
   @include respond(phone) {
     font-size: var(--font-size-small);
@@ -13,9 +11,24 @@ p {
 }
 
 .white {
+  letter-spacing: var(--letter-spacing-xsmall);
   color: var(--color-white);
+  opacity: 0.75;
 }
 
 .black {
   color: var(--color-black);
+}
+
+.gray {
+  color: var(--color-white);
+  opacity: 0.5;
+  letter-spacing: var(--letter-spacing-xxsmall);
+}
+
+.gray--bold {
+  color: var(--color-white);
+  opacity: 0.5;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-xxsmall);
 }
