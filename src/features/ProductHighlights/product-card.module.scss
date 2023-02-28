@@ -24,7 +24,8 @@
 
   @include respond(tablet) {
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    gap: 6.4rem;
   }
 
   &__img {
@@ -35,6 +36,13 @@
     transform: translateY(1.2rem);
     margin-left: 12rem;
     margin-top: 8%;
+
+    @include respond(tablet) {
+      max-height: 24rem;
+      max-width: 20rem;
+      margin: 5.2rem 0 0 0;
+      transform: translateY(0);
+    }
   }
 
   &__text {
@@ -49,12 +57,24 @@
     & > *:last-child {
       margin-top: var(--spacer-m);
     }
+
+    @include respond(tablet) {
+      margin: 0 0 6.4rem 0;
+      text-align: center;
+      max-width: 70%;
+      align-items: center;
+    }
   }
 
   &__pattern {
     position: absolute;
     z-index: 1;
-    left: -15rem;
-    top: -3rem;
+    left: -13%;
+    top: -5%;
+
+    @include respond(tablet) {
+      left: -2%;
+      top: -45%;
+    }
   }
 }
