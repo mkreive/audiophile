@@ -1,0 +1,10 @@
+.container {
+  position: relative;
+  display: flex;
+  flex: 1;
+  min-width: 54rem;
+  min-height: 32rem;
+  background-color: var(--color-gray-light);
+  border-radius: var(--border-radius-large);
+  border: none;
+}
