@@ -13,7 +13,7 @@ export default function ProductCard({ product }) {
     <div className={cn('container')}>
       {(product.cardType === 'custom' && <CustomCard product={product} />) ||
         (product.cardType === 'split' && <SplitCard product={product} />) ||
-        (product.cardType === 'main' && <MainCard />)}
+        (product.cardType === 'main' && <MainCard product={product} />)}
     </div>
   );
 }

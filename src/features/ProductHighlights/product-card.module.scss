@@ -4,7 +4,6 @@
   position: relative;
   display: flex;
   width: 100%;
-  min-height: 32rem;
   background-color: var(--color-gray-light);
   border-radius: var(--border-radius-large);
   border: none;
@@ -33,7 +32,7 @@
     flex: 1;
     bottom: 0;
     z-index: 55;
-    transform: translateY(1.2rem);
+    transform: translateY(var(--spacer-s));
     margin-left: 12rem;
     margin-top: 8%;
 
@@ -52,7 +51,7 @@
     flex: 1;
     gap: var(--spacer-xl);
     z-index: 99;
-    margin: 2rem 9.5rem 2rem 0;
+    margin: var(--spacer-l) var(--spacer-huge) var(--spacer-l) 0;
 
     & > *:last-child {
       margin-top: var(--spacer-m);
@@ -69,12 +68,47 @@
   &__pattern {
     position: absolute;
     z-index: 1;
-    left: -13%;
-    top: -5%;
+    top: 0;
+    left: 0;
+    transform: translateY(80rem);
+    transform: translateX(-15rem);
 
     @include respond(tablet) {
-      left: -2%;
-      top: -45%;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
+  }
+}
+
+.main-card {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+
+  &__text {
+    position: absolute;
+    padding: var(--spacer-huge);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacer-xxl);
+    z-index: 55;
+
+    @include respond(tablet) {
+      padding: 6.2rem;
+    }
+
+    @include respond(phone) {
+      gap: var(--spacer-s);
+      padding: var(--spacer-xxl);
+    }
+  }
+
+  &__img {
+    position: relative;
+    height: 100%;
+    width: 100%;
   }
 }
