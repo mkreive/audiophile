@@ -112,3 +112,50 @@
     width: 100%;
   }
 }
+
+.split-card {
+  position: relative;
+  display: flex;
+  background-color: var(--color-white-darkened);
+  gap: 3rem;
+
+  @include respond(tablet) {
+    gap: var(--spacer-s);
+  }
+
+  @include respond(phone) {
+    flex-direction: column;
+    gap: var(--spacer-xl);
+  }
+
+  &__img {
+    overflow: hidden;
+    flex: 1;
+    width: 100%;
+    border-radius: var(--border-radius-large);
+
+    @include respond(phone) {
+      flex: 2;
+    }
+  }
+
+  &__text {
+    padding-left: 9.5rem;
+    background-color: var(--color-gray-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    gap: var(--spacer-xxl);
+    border-radius: var(--border-radius-large);
+
+    @include respond(tablet) {
+      padding-left: var(--spacer-xxxxl);
+    }
+
+    @include respond(phone) {
+      padding: var(--spacer-xl);
+      gap: var(--spacer-s);
+    }
+  }
+}

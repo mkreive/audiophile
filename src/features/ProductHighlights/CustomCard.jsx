@@ -20,7 +20,6 @@ export default function CustomCard({ product }) {
             (!isMobile && !isTabletOrMobile && product.image)
           }
           alt={product.name}
-          className={cn('main-card__img')}
         />
       </div>
       <div className={cn('custom-card__text')}>

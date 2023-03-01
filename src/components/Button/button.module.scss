@@ -1,3 +1,5 @@
+@import '../../sass/global.scss';
+
 .btn {
   font-size: var(--font-size-xsmall);
   font-weight: var(--font-weight-bold);
@@ -9,6 +11,11 @@
   width: max-content;
   height: max-content;
   transition: all 0.2s ease;
+
+  @include respond(phone) {
+    padding: 1rem 2rem;
+    font-size: var(--font-size-xxsmall);
+  }
 }
 
 .orange {
