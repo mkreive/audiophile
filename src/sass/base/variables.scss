@@ -10,6 +10,7 @@
   --color-black-dark: #121212;
   --color-gray-light: #f1f1f1;
   --color-gray-medium: #979797;
+  --color-gray-dark: #4c4c4c;
   --color-red: #cd2c2c;
 
   /* BORDERS */
@@ -23,6 +24,7 @@
   --border-radius-large: 0.8rem; //pan
 
   /* TYPOGRAPHY */
+  --font-size-xxsmall: 1.1rem;
   --font-size-xsmall: 1.3rem;
   --font-size-small: 1.4rem;
   --font-size-text: 1.5rem;
@@ -50,13 +52,14 @@
   /* SPACERS */
   --spacer-xxs: 0.1rem;
   --spacer-xs: 0.2rem; //pan
-  --spacer-s: 1.2rem;
+  --spacer-s: 1.2rem; //pan
   --spacer-m: 1.6rem; // pan
-  --spacer-l: 2rem;
+  --spacer-l: 2rem; //pan
   --spacer-xl: 2.4rem; //pan
   --spacer-xxl: 3.2rem; // pan
   --spacer-xxxl: 4.8rem; // pan
   --spacer-xxxxl: 5.6rem; //pan
   --spacer-xxxxxl: 7rem; //pan
   --spacer-xxxxxxl: 8rem;
+  --spacer-huge: 9.6rem; //pan
 }

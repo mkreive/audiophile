@@ -57,10 +57,6 @@ Users should be able to:
 
 ### Continued development/Planning
 
-12. card
-13. product posters 3
-14. product big
-15. product small
 16. article component
 17. home page finished
 

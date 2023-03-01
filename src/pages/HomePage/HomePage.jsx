@@ -1,16 +1,14 @@
 import { Helmet } from 'react-helmet';
 import classNames from 'classnames/bind';
 import styles from './home-page.module.scss';
+import pageData from './pageData.json';
 import { Hero, Menu } from 'components';
-import { MainLayout, CardWrapper } from 'layouts';
+import { MainLayout } from 'layouts';
+import { ProductHighlights } from 'features';
 
 const cn = classNames.bind(styles);
 
 export default function HomePage() {
-  const handleProductClick = function (e) {
-    console.log(e.target);
-  };
-
   return (
     <div className={cn('container')}>
       <Helmet>
@@ -19,7 +17,7 @@ export default function HomePage() {
       <Hero />
       <MainLayout>
         <Menu />
-        <CardWrapper onClick={handleProductClick} theme='rectangular'></CardWrapper>
+        <ProductHighlights productsData={pageData.productHighlights} />
       </MainLayout>
     </div>
   );

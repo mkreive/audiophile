@@ -1,3 +1,5 @@
+@import '../../sass/global.scss';
+
 .container {
   margin-top: 12rem;
   margin-bottom: 20rem;
@@ -7,4 +9,8 @@
   flex-direction: column;
   gap: 12rem;
   align-items: center;
+
+  @include respond(tablet) {
+    width: 90%;
+  }
 }

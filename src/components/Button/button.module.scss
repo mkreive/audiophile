@@ -1,3 +1,5 @@
+@import '../../sass/global.scss';
+
 .btn {
   font-size: var(--font-size-xsmall);
   font-weight: var(--font-weight-bold);
@@ -8,6 +10,12 @@
   text-transform: uppercase;
   width: max-content;
   height: max-content;
+  transition: all 0.2s ease;
+
+  @include respond(phone) {
+    padding: 1rem 2rem;
+    font-size: var(--font-size-xxsmall);
+  }
 }
 
 .orange {
@@ -20,12 +28,22 @@
 }
 
 .white {
-  background-color: var(--color-white);
+  background-color: transparent;
   color: var(--color-black);
   border: 1px solid var(--color-black);
 
   &:hover {
     background-color: var(--color-black);
+    color: var(--color-white);
+  }
+}
+
+.black {
+  background-color: var(--color-black);
+  color: var(--color-white);
+
+  &:hover {
+    background-color: var(--color-gray-dark);
     color: var(--color-white);
   }
 }
