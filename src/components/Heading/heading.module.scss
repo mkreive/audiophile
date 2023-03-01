@@ -18,6 +18,7 @@
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-xlarge);
   letter-spacing: var(--letter-spacing-medium);
+  line-height: 1.1;
 
   @include respond(phone) {
     font-size: var(--font-size-large);
