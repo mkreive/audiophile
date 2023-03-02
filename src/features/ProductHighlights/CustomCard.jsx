@@ -46,5 +46,5 @@ export default function CustomCard({ product }) {
 }
 
 CustomCard.propTypes = {
-  product: PropTypes.string,
+  product: PropTypes.object,
 };

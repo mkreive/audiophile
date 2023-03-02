@@ -6,11 +6,19 @@ import { Heading, Paragraph } from 'components';
 const cn = classNames.bind(styles);
 
 export default function ArticleSection({ article }) {
+  const headingWord = article.headingWord;
+  const word = <span style={{ color: '#d87d4a' }}>{` ${headingWord} `}</span>;
+  const headingEnd = article.heading.split(' ');
+  const headingStart = headingEnd.splice(0, headingEnd.indexOf(headingWord)).join(' ');
+  headingEnd.splice(0, 1).join(' ');
+
   return (
     <div className={cn('container')}>
       <div className={cn('container__left')}>
         <Heading tag='h2' theme='black'>
-          {article.heading}
+          {headingStart}
+          {word}
+          {headingEnd}
         </Heading>
         <Paragraph theme='gray'>{article.text}</Paragraph>
       </div>

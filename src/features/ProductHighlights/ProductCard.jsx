@@ -8,7 +8,6 @@ import MainCard from './MainCard';
 const cn = classNames.bind(styles);
 
 export default function ProductCard({ product }) {
-  console.log(product.cardType);
   return (
     <div className={cn('container')}>
       {(product.cardType === 'custom' && <CustomCard product={product} />) ||

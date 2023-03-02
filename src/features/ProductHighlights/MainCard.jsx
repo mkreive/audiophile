@@ -32,5 +32,5 @@ export default function MainCard({ product }) {
 }
 
 MainCard.propTypes = {
-  product: PropTypes.string,
+  product: PropTypes.object,
 };

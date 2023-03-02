@@ -10,5 +10,5 @@ export default function Paragraph({ theme, children }) {
 
 Paragraph.propTypes = {
   theme: PropTypes.string,
-  children: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
+  children: PropTypes.oneOfType([PropTypes.string, PropTypes.element, PropTypes.node]),
 };

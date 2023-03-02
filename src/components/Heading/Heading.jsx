@@ -12,5 +12,5 @@ export default function Heading({ tag, theme, children }) {
 Heading.propTypes = {
   tag: PropTypes.oneOf(['h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p']).isRequired,
   theme: PropTypes.string,
-  children: PropTypes.oneOfType([PropTypes.string, PropTypes.element]),
+  children: PropTypes.oneOfType([PropTypes.string, PropTypes.element, PropTypes.node]),
 };
