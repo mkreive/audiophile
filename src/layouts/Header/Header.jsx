@@ -3,6 +3,7 @@ import { useMediaQuery } from 'react-responsive';
 import classNames from 'classnames/bind';
 import styles from './header.module.scss';
 import { Logo, CartIcon, Navigation, MobileNavigation, DropdownMenu } from 'components';
+import { Modal } from 'layouts';
 
 const cn = classNames.bind(styles);
 
@@ -42,6 +43,7 @@ export default function Header() {
         <CartIcon />
       </div>
       <DropdownMenu visible={dropMenuShown} mobile={isMobile} />
+      {dropMenuShown && <Modal />}
     </header>
   );
 }

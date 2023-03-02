@@ -23,7 +23,7 @@ export default function ArticleSection({ article }) {
           {word}
           {headingEnd}
         </Heading>
-        <Paragraph theme='gray'>{article.text}</Paragraph>
+        <Paragraph theme='black'>{article.text}</Paragraph>
       </div>
       <div className={cn('container__right')}>
         <img
