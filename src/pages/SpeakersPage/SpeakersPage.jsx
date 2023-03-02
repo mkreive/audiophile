@@ -1,15 +1,23 @@
+import { Helmet } from 'react-helmet';
 import classNames from 'classnames/bind';
 import styles from './speakers-page.module.scss';
+import pageData from './pageData.json';
+import { Banner, Menu, ArticleSection } from 'components';
+import { MainLayout } from 'layouts';
 
 const cn = classNames.bind(styles);
 
 export default function SpeakersPage() {
   return (
     <div className={cn('container')}>
-      {/* <SpeakersPageHero />
-      <SpeakersPageProducts />
-      <ShopLinks />
-      <Article /> */}
+      <Helmet>
+        <title>{`Audiophile - ${pageData.pageTitle}`}</title>
+      </Helmet>
+      <Banner title={pageData.pageTitle} />
+      <MainLayout>
+        <Menu />
+        <ArticleSection article={pageData.article} />
+      </MainLayout>
     </div>
   );
 }

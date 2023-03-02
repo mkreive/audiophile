@@ -13,7 +13,7 @@ export default function EarphonesPage() {
       <Helmet>
         <title>{`Audiophile - ${pageData.pageTitle}`}</title>
       </Helmet>
-      <Banner title='Earphones' />
+      <Banner title={pageData.pageTitle} />
       <MainLayout>
         <Menu />
         <ArticleSection article={pageData.article} />
