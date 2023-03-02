@@ -12,7 +12,7 @@ export default function HomePage() {
   return (
     <div className={cn('container')}>
       <Helmet>
-        <title>Audiophile - Home</title>
+        <title>{`Audiophile - ${pageData.pageTitle}`}</title>
       </Helmet>
       <Hero />
       <MainLayout>
