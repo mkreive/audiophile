@@ -1,0 +1,14 @@
+@import '../../sass/global.scss';
+
+.container {
+  width: 100%;
+  min-height: 25rem;
+  background-color: var(--color-black-medium);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include respond(phone) {
+    min-height: 10rem;
+  }
+}

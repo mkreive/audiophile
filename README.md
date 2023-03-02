@@ -57,12 +57,9 @@ Users should be able to:
 
 ### Continued development/Planning
 
-16. article component
-17. home page finished
-
----
-
-18. hero small
+16. banner of pages
+17. product card
+18. product features
 19. headphones page
 20. speakers page
 21. earphones page
