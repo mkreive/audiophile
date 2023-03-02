@@ -33,5 +33,5 @@ export default function SplitCard({ product }) {
 }
 
 SplitCard.propTypes = {
-  product: PropTypes.string,
+  product: PropTypes.object,
 };

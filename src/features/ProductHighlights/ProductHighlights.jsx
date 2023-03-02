@@ -15,5 +15,5 @@ export default function ProductHighlights({ productsData }) {
 }
 
 ProductHighlights.propTypes = {
-  productsData: PropTypes.object,
+  productsData: PropTypes.array,
 };

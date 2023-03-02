@@ -12,6 +12,7 @@
   @include respond(phone) {
     flex-direction: column;
     height: 100%;
+    gap: 0rem;
   }
 }
 

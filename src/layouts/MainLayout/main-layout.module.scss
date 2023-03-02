@@ -12,5 +12,14 @@
 
   @include respond(tablet) {
     width: 90%;
+    gap: 9.6rem;
+    margin-bottom: 9.6rem;
+    margin-top: 9.6rem;
+  }
+
+  @include respond(phone) {
+    margin-top: 4rem;
+    gap: 12rem;
+    margin-bottom: 12rem;
   }
 }

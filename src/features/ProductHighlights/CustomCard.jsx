@@ -26,7 +26,7 @@ export default function CustomCard({ product }) {
         <Heading tag='h1' theme='white'>
           {product.name}
         </Heading>
-        <Paragraph theme='gray'>{product.info}</Paragraph>
+        <Paragraph theme='white'>{product.info}</Paragraph>
         <Button theme='black'>See product</Button>
       </div>
       <svg
@@ -46,5 +46,5 @@ export default function CustomCard({ product }) {
 }
 
 CustomCard.propTypes = {
-  product: PropTypes.string,
+  product: PropTypes.object,
 };
