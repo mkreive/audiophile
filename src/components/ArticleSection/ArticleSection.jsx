@@ -1,15 +1,18 @@
+import { useMediaQuery } from 'react-responsive';
+import PropTypes from 'prop-types';
 import classNames from 'classnames/bind';
 import styles from './article-section.module.scss';
-import PropTypes from 'prop-types';
 import { Heading, Paragraph } from 'components';
 
 const cn = classNames.bind(styles);
 
 export default function ArticleSection({ article }) {
-  const headingWord = article.headingWord;
-  const word = <span style={{ color: '#d87d4a' }}>{` ${headingWord} `}</span>;
+  const isTablet = useMediaQuery({ query: '(max-width: 1024px)' });
+  const isMobile = useMediaQuery({ query: '(max-width: 700px)' });
+
+  const word = <span style={{ color: '#d87d4a' }}>{` ${article.headingWord} `}</span>;
   const headingEnd = article.heading.split(' ');
-  const headingStart = headingEnd.splice(0, headingEnd.indexOf(headingWord)).join(' ');
+  const headingStart = headingEnd.splice(0, headingEnd.indexOf(article.headingWord)).join(' ');
   headingEnd.splice(0, 1).join(' ');
 
   return (
@@ -23,7 +26,14 @@ export default function ArticleSection({ article }) {
         <Paragraph theme='gray'>{article.text}</Paragraph>
       </div>
       <div className={cn('container__right')}>
-        <img src={article.photo} alt={article.header} />
+        <img
+          src={
+            (isMobile && article.photoMobile) ||
+            (!isTablet && !isMobile && article.photo) ||
+            (isTablet && article.photoTablet)
+          }
+          alt={article.header}
+        />
       </div>
     </div>
   );
