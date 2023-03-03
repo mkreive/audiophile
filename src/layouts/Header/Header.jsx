@@ -42,7 +42,7 @@ export default function Header() {
         {!isTabletOrMobile && <Navigation />}
         <CartIcon />
       </div>
-      <DropdownMenu visible={dropMenuShown} mobile={isMobile} />
+      <DropdownMenu visible={dropMenuShown} mobile={isMobile} onClick={handleMenuClick} />
       {dropMenuShown && <Modal />}
     </header>
   );

@@ -8,6 +8,7 @@ const cn = classNames.bind(styles);
 export default function DropdownMenu(props) {
   return (
     <div
+      onClick={props.onClick}
       className={cn('container')}
       style={{ height: props.visible && (!props.mobile ? '350px' : '900px') }}
     >
@@ -19,4 +20,5 @@ export default function DropdownMenu(props) {
 DropdownMenu.propTypes = {
   visible: PropTypes.bool,
   mobile: PropTypes.bool,
+  onClick: PropTypes.func,
 };

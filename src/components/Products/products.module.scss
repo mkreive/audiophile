@@ -1,3 +1,5 @@
+@import '../../sass/global.scss';
+
 .container {
   margin-top: 4rem;
   width: 100%;
@@ -5,6 +7,15 @@
   flex-direction: column;
   gap: 16rem;
   margin-bottom: 4rem;
+
+  @include respond(tablet) {
+    gap: 12rem;
+    margin-top: var(--spacer-xl);
+  }
+
+  @include respond(phone) {
+    margin-bottom: 0;
+  }
 }
 
 .wrapper {
@@ -12,6 +23,11 @@
   gap: 13rem;
   justify-content: space-between;
   align-items: center;
+
+  @include respond(tablet) {
+    flex-direction: column;
+    gap: 5.2rem;
+  }
 }
 
 .image {
@@ -21,6 +37,10 @@
   border-radius: 0.8rem;
   background-color: var(--color-gray-light);
   overflow: hidden;
+
+  @include respond(tablet) {
+    max-width: 100%;
+  }
 }
 
 .text {
@@ -32,8 +52,22 @@
   & > h3 {
     margin-bottom: var(--spacer-m);
   }
+
+  @include respond(tablet) {
+    text-align: center;
+    align-items: center;
+    width: 80%;
+  }
+
+  @include respond(phone) {
+    width: 100%;
+  }
 }
 
 .link {
   margin-top: var(--spacer-xxl);
+
+  @include respond(phone) {
+    margin-top: 0;
+  }
 }
