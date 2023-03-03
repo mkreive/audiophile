@@ -10,3 +10,4 @@ export * from './Paragraph';
 export * from './DropdownMenu';
 export * from './ArticleSection';
 export * from './Banner';
+export * from './Product';

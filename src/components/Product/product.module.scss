@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  &__img {
+    flex: 1;
+  }
+
+  &__text {
+    flex: 1;
+  }
+}
