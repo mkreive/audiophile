@@ -3,7 +3,7 @@ import classNames from 'classnames/bind';
 import styles from './headphones-page.module.scss';
 import pageData from './pageData.json';
 import { MainLayout } from 'layouts';
-import { Banner, Menu, ArticleSection, Product } from 'components';
+import { Banner, Menu, ArticleSection, Products } from 'components';
 
 const cn = classNames.bind(styles);
 
@@ -15,9 +15,7 @@ export default function HeadphonesPage() {
       </Helmet>
       <Banner title={pageData.pageTitle} />
       <MainLayout>
-        {pageData.products.map((product) => (
-          <Product data={product} order='1' key={product.id} />
-        ))}
+        <Products data={pageData.products} />
         <Menu />
         <ArticleSection article={pageData.article} />
       </MainLayout>

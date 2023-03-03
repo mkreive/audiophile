@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-evenly;
   gap: 2rem;
+  transform: translateX(-6rem);
 
   @include respond(phone) {
     flex-direction: column;
