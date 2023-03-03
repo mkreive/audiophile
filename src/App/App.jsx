@@ -20,6 +20,7 @@ const router = createBrowserRouter(
       <Route path='/earphones/*' element={<EarphonesPage />} />
       <Route path='/headphones/*' element={<HeadphonesPage />} />
       <Route path='/speakers/*' element={<SpeakersPage />} />
+      {/* <Route path='/product/*' element={<ProductPage />} /> */}
       {/* <Route path='/checkout' element={<CheckoutPage />} /> */}
       {/* <Route path='*' element={<NotFoundPage />} /> */}
     </Route>,

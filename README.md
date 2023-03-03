@@ -57,22 +57,19 @@ Users should be able to:
 
 ### Continued development/Planning
 
-16. banner of pages
-17. product card
-18. product features
-19. headphones page
-20. speakers page
-21. earphones page
-22. product detail page
+19. product detail page components
+20. product detail page
+21. not found page
+22. fix bugs/cosmetic issues
 
 ---
 
-23. cart
+23. cart and context
 24. checkout
-25. modal
 
 ---
 
+25. -
 26. database
 
 ## Author

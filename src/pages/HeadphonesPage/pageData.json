@@ -15,9 +15,10 @@
     {
       "id": "prod-002",
       "name": "XX99 Mark II Headphones",
-      "new": "true",
+      "new": true,
       "about": "The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.",
       "imageProduct": "https://res.cloudinary.com/kreiva/image/upload/v1677754959/Audiophile/image-product_k8apzb.jpg",
+      "imageProductTablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835697/Audiophile/image-category-page-preview_bcta2i.jpg",
       "imageGalleryPreview": "https://res.cloudinary.com/kreiva/image/upload/v1677754958/Audiophile/image-category-page-preview_gqveok.jpg",
       "imageGallery": [
         "https://res.cloudinary.com/kreiva/image/upload/v1677754958/Audiophile/image-gallery-1_iskymh.jpg",
@@ -28,9 +29,10 @@
     {
       "id": "prod-003",
       "name": "prXX99 Mark I Headphones",
-      "new": "false",
+      "new": false,
       "about": "As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.",
       "imageProduct": "https://res.cloudinary.com/kreiva/image/upload/v1677754865/Audiophile/image-product_snwwzj.jpg",
+      "imageProductTablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835664/Audiophile/image-category-page-preview_yjxzjt.jpg",
       "imageGalleryPreview": "https://res.cloudinary.com/kreiva/image/upload/v1677754865/Audiophile/image-category-page-preview_pkgvjd.jpg",
       "imageGallery": [
         "https://res.cloudinary.com/kreiva/image/upload/v1677754864/Audiophile/image-gallery-1_va3pre.jpg",
@@ -41,9 +43,10 @@
     {
       "id": "prod-004",
       "name": "XX59 Headphones",
-      "new": "false",
+      "new": false,
       "about": "Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move.",
       "imageProduct": "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-product_akxmgc.jpg",
+      "imageProductTablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835614/Audiophile/image-category-page-preview_up6lyg.jpg",
       "imageGalleryPreview": "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-category-page-preview_abuoau.jpg",
       "imageGallery": [
         "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-gallery-1_udct6l.jpg",

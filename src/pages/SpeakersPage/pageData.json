@@ -13,16 +13,31 @@
 
   "products": [
     {
-      "id": "prod-001",
-      "name": "YX1 WIRELESS EARPHONES",
-      "new": "true",
-      "about": "Tailor your listening experience with bespoke dynamic drivers from the new YX1 Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.",
-      "imageProduct": "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-product_pwm9nq.jpg",
-      "imageGalleryPreview": "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-category-page-preview_j4u8um.jpg",
+      "id": "prod-011",
+      "name": "ZX7 SPEAKER",
+      "new": true,
+      "about": "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+      "imageProduct": "https://res.cloudinary.com/kreiva/image/upload/v1677836503/Audiophile/image-product_asm5qj.jpg",
+      "imageProductTablet": "https://res.cloudinary.com/kreiva/image/upload/v1677836600/Audiophile/image-category-page-preview_o8vel7.jpg",
+      "imageGalleryPreview": "https://res.cloudinary.com/kreiva/image/upload/v1677836503/Audiophile/image-category-page-preview_bvnrbk.jpg",
       "imageGallery": [
-        "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-gallery-3_nxfowu.jpg",
-        "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-gallery-2_emhsht.jpg",
-        "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-gallery-1_tqon5e.jpg"
+        "https://res.cloudinary.com/kreiva/image/upload/v1677836503/Audiophile/image-gallery-1_xjyj0x.jpg",
+        "https://res.cloudinary.com/kreiva/image/upload/v1677836503/Audiophile/image-gallery-2_acfm7s.jpg ",
+        "https://res.cloudinary.com/kreiva/image/upload/v1677836503/Audiophile/image-gallery-3_tc93qr.jpg"
+      ]
+    },
+    {
+      "id": "prod-012",
+      "name": "ZX9 SPEAKER",
+      "new": false,
+      "about": "Stream high quality sound wirelessly with minimal loss. The ZX7 bookshelf speaker uses high-end audiophile components that represents the top of the line powered speakers for home or studio use.",
+      "imageProduct": "https://res.cloudinary.com/kreiva/image/upload/v1677836731/Audiophile/image-product_rriqsb.jpg",
+      "imageProductTablet": "https://res.cloudinary.com/kreiva/image/upload/v1677836795/Audiophile/image-category-page-preview_bgvbac.jpg",
+      "imageGalleryPreview": "https://res.cloudinary.com/kreiva/image/upload/v1677836731/Audiophile/image-category-page-preview_ea7pol.jpg",
+      "imageGallery": [
+        "https://res.cloudinary.com/kreiva/image/upload/v1677836731/Audiophile/image-gallery-1_b9baig.jpg",
+        "https://res.cloudinary.com/kreiva/image/upload/v1677836731/Audiophile/image-gallery-2_qom9wn.jpg ",
+        "https://res.cloudinary.com/kreiva/image/upload/v1677836731/Audiophile/image-gallery-3_eifng6.jpg"
       ]
     }
   ]
