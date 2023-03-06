@@ -10,4 +10,4 @@ export * from './Menu';
 export * from './MobileNavigation';
 export * from './Navigation';
 export * from './Paragraph';
-export * from './Products';
+export * from './ProductsSection';

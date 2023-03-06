@@ -1,0 +1,19 @@
+@import '../../sass/global.scss';
+
+.container {
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16rem;
+  margin-bottom: 4rem;
+
+  @include respond(tablet) {
+    gap: 12rem;
+    margin-top: var(--spacer-xl);
+  }
+
+  @include respond(phone) {
+    margin-bottom: 0;
+  }
+}

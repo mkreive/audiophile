@@ -8,7 +8,7 @@ import {
 import classNames from 'classnames/bind';
 import styles from './app.module.scss';
 import { RootLayout } from 'layouts';
-import { HomePage, EarphonesPage, HeadphonesPage, SpeakersPage } from 'pages';
+import { HomePage, EarphonesPage, HeadphonesPage, SpeakersPage, ProductPage } from 'pages';
 
 const cn = classNames.bind(styles);
 
@@ -20,7 +20,7 @@ const router = createBrowserRouter(
       <Route path='/earphones/*' element={<EarphonesPage />} />
       <Route path='/headphones/*' element={<HeadphonesPage />} />
       <Route path='/speakers/*' element={<SpeakersPage />} />
-      {/* <Route path='/product/*' element={<ProductPage />} /> */}
+      <Route path='/products/*' element={<ProductPage />} />
       {/* <Route path='/checkout' element={<CheckoutPage />} /> */}
       {/* <Route path='*' element={<NotFoundPage />} /> */}
     </Route>,

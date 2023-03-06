@@ -1,0 +1,12 @@
+.image {
+  flex: 1;
+  width: max-content;
+  max-width: 54rem;
+  border-radius: 0.8rem;
+  background-color: var(--color-gray-light);
+  overflow: hidden;
+
+  @include respond(tablet) {
+    max-width: 100%;
+  }
+}
