@@ -1,7 +1,7 @@
+import PropTypes from 'prop-types';
 import { useMediaQuery } from 'react-responsive';
 import classNames from 'classnames/bind';
 import styles from './image-layout.module.scss';
-import PropTypes from 'prop-types';
 
 const cn = classNames.bind(styles);
 
