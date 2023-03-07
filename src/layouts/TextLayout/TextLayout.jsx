@@ -2,12 +2,13 @@ import { Link } from 'react-router-dom';
 import classNames from 'classnames/bind';
 import styles from './text-layout.module.scss';
 import PropTypes from 'prop-types';
-import { Heading, Paragraph, Button } from 'components';
+import { Heading, Paragraph, Button, ButtonGroup } from 'components';
 
 const cn = classNames.bind(styles);
 
-export default function TextLayout({ data, option }) {
+export default function TextLayout({ data, option, onClick }) {
   const url = data.name.replaceAll(' ', '-').toLowerCase();
+  let price = `$ ${(+data.price).toLocaleString('en-US', { maximumFractionDigits: 3 })}`;
 
   return (
     <div className={cn('container')}>
@@ -20,7 +21,8 @@ export default function TextLayout({ data, option }) {
         {data.name}
       </Heading>
       <Paragraph theme='black'>{data.about}</Paragraph>
-      {option === 'buy' && <div>{data.price}</div>}
+
+      {option === 'buy' && <Paragraph theme='black--bold'>{price}</Paragraph>}
 
       {option === 'see' && (
         <Link to={`/products/${url}`} className={cn('link')}>
@@ -28,16 +30,7 @@ export default function TextLayout({ data, option }) {
         </Link>
       )}
 
-      {option === 'buy' && (
-        <div className={cn('btns-group')}>
-          <div>
-            <span>-</span>
-            <span>1</span>
-            <span>+</span>
-          </div>
-          <Button theme='orange'>Add to cart</Button>
-        </div>
-      )}
+      {option === 'buy' && <ButtonGroup onClick={onClick} />}
     </div>
   );
 }
@@ -45,4 +38,5 @@ export default function TextLayout({ data, option }) {
 TextLayout.propTypes = {
   data: PropTypes.object,
   option: PropTypes.string,
+  onClick: PropTypes.func,
 };
