@@ -5,16 +5,19 @@
   gap: 3rem;
   justify-content: space-between;
 
-  @include respond(tablet) {
+  &__left {
+    display: flex;
     flex-direction: column;
-    gap: 5.2rem;
+    gap: 3rem;
+
+    @include respond(tablet) {
+      gap: 2rem;
+    }
   }
-}
-.container__left {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  background-color: red;
+
+  @include respond(tablet) {
+    gap: 1.8rem;
+  }
 }
 
 .img {

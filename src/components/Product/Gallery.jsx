@@ -7,7 +7,7 @@ const cn = classNames.bind(styles);
 export default function Gallery({ data }) {
   return (
     <div className={cn('container')}>
-      <div className='container__left'>
+      <div className={cn('container__left')}>
         <img className={cn('img')} src={data[0]} alt='dsdds' />
         <img className={cn('img')} src={data[1]} alt='dsdds' />
       </div>
