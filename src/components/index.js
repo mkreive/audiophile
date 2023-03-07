@@ -12,3 +12,4 @@ export * from './Navigation';
 export * from './Paragraph';
 export * from './Product';
 export * from './ProductsSection';
+export * from './List';

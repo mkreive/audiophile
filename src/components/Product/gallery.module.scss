@@ -1,0 +1,23 @@
+@import '../../sass/global.scss';
+
+.container {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+
+  @include respond(tablet) {
+    flex-direction: column;
+    gap: 5.2rem;
+  }
+}
+.container__left {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  background-color: red;
+}
+
+.img {
+  border-radius: 0.8rem;
+  width: 100%;
+}
