@@ -5,14 +5,14 @@ import { Heading, Paragraph, List } from 'components';
 
 const cn = classNames.bind(styles);
 
-export default function Features({ data }) {
+export default function Features({ features, content }) {
   return (
     <div className={cn('container')}>
       <article className={cn('article')}>
         <Heading tag='h3' theme='black'>
           Features
         </Heading>
-        {data.features.map((paragraph, i) => (
+        {features.map((paragraph, i) => (
           <Paragraph key={i} theme='black'>
             {paragraph}
           </Paragraph>
@@ -22,12 +22,13 @@ export default function Features({ data }) {
         <Heading tag='h3' theme='black'>
           In the box
         </Heading>
-        <List data={data.inBox} />
+        <List data={content} />
       </article>
     </div>
   );
 }
 
 Features.propTypes = {
-  data: PropTypes.object,
+  features: PropTypes.array,
+  content: PropTypes.array,
 };

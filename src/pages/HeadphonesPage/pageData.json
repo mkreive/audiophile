@@ -30,6 +30,7 @@
         { "count": 1, "name": "3.5mm 5m Audio Cable" },
         { "count": 1, "name": "Travel Bag" }
       ],
+
       "images": {
         "gallery": [
           "https://res.cloudinary.com/kreiva/image/upload/v1677754958/Audiophile/image-gallery-1_iskymh.jpg",
@@ -37,11 +38,13 @@
           "https://res.cloudinary.com/kreiva/image/upload/v1677754958/Audiophile/image-gallery-3_cfct2e.jpg"
         ],
         "productPage": {
+          "alt": "XX99 Mark II Headphones",
           "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677754959/Audiophile/image-product_k8apzb.jpg",
           "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835696/Audiophile/image-product_fboz8d.jpg",
           "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677754959/Audiophile/image-product_k8apzb.jpg"
         },
         "allProductsPage": {
+          "alt": "XX99 Mark II Headphones",
           "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677754959/Audiophile/image-product_k8apzb.jpg",
           "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835697/Audiophile/image-category-page-preview_bcta2i.jpg",
           "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677754959/Audiophile/image-product_k8apzb.jpg"
@@ -63,6 +66,10 @@
         { "count": 1, "name": "3.5mm 5m Audio Cable" },
         { "count": 1, "name": "Travel Bag" }
       ],
+      "features": [
+        "These headphones have been created from durable, high-quality materials tough enough to take anywhere. Its compact folding design fuses comfort and minimalist style making it perfect for travel. Flawless transmission is assured by the latest wireless technology engineered for audio synchronization with videos.",
+        "More than a simple pair of headphones, this headset features a pair of built-in microphones for clear, hands-free calling when paired with a compatible smartphone. Controlling music and calls is also intuitive thanks to easy-access touch buttons on the earcups. Regardless of how you use the XX59 headphones, you can do so all day thanks to an impressive 30-hour battery life that can be rapidly recharged via USB-C."
+      ],
       "images": {
         "gallery": [
           "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-gallery-1_udct6l.jpg",
@@ -70,11 +77,13 @@
           "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-gallery-3_johqjb.jpg"
         ],
         "productPage": {
+          "alt": "XX59 Headphones",
           "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-product_akxmgc.jpg",
           "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835614/Audiophile/image-product_hplo7o.jpg",
           "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-product_akxmgc.jpg"
         },
         "allProductsPage": {
+          "alt": "XX59 Headphones",
           "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-product_akxmgc.jpg",
           "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835614/Audiophile/image-category-page-preview_up6lyg.jpg",
           "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-product_akxmgc.jpg"
@@ -95,6 +104,10 @@
         { "count": 1, "name": "User Manual" },
         { "count": 1, "name": "3.5mm 5m Audio Cable" }
       ],
+      "features": [
+        "As the headphones all others are measured against, the XX99 Mark I demonstrates over five decades of audio expertise, redefining the critical listening experience. This pair of closed-back headphones are made of industrial, aerospace-grade materials to emphasize durability at a relatively light weight of 11 oz.",
+        "From the handcrafted microfiber ear cushions to the robust metal headband with inner damping element, the components work together to deliver comfort and uncompromising sound. Its closed-back design delivers up to 27 dB of passive noise cancellation, reducing resonance by reflecting sound to a dedicated absorber. For connectivity, a specially tuned cable is included with a balanced gold connector."
+      ],
       "images": {
         "gallery": [
           "https://res.cloudinary.com/kreiva/image/upload/v1677754864/Audiophile/image-gallery-1_va3pre.jpg",
@@ -102,11 +115,13 @@
           "https://res.cloudinary.com/kreiva/image/upload/v1677754864/Audiophile/image-gallery-3_iboftz.jpg"
         ],
         "productPage": {
+          "alt": "prXX99 Mark I Headphones",
           "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677754865/Audiophile/image-product_snwwzj.jpg",
           "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835664/Audiophile/image-product_c4eha7.jpg",
           "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677754865/Audiophile/image-product_snwwzj.jpg"
         },
         "allProductsPage": {
+          "alt": "prXX99 Mark I Headphones",
           "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677754865/Audiophile/image-product_snwwzj.jpg",
           "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835664/Audiophile/image-category-page-preview_yjxzjt.jpg",
           "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677754865/Audiophile/image-product_snwwzj.jpg"

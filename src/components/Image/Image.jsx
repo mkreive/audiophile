@@ -17,7 +17,7 @@ export default function Image({ image, index }) {
           (!isTablet && !isMobile && image.desktop) ||
           (isMobile && image.mobile) ||
           (isTablet && image.tablet) ||
-          image.desktop
+          image
         }
         alt={image.alt}
       />
@@ -26,6 +26,6 @@ export default function Image({ image, index }) {
 }
 
 Image.propTypes = {
-  image: PropTypes.object,
+  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   index: PropTypes.number,
 };

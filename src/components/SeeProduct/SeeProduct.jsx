@@ -7,7 +7,7 @@ import { Heading, Paragraph, Button } from 'components';
 const cn = classNames.bind(styles);
 
 export default function SeeProduct({ data }) {
-  const url = data.name.replaceAll(' ', '-').toLowerCase();
+  // const url = data.name.replaceAll(' ', '-').toLowerCase();
 
   return (
     <div className={cn('container')}>
@@ -20,7 +20,10 @@ export default function SeeProduct({ data }) {
         {data.name}
       </Heading>
       <Paragraph theme='black'>{data.about}</Paragraph>
-      <Link to={`${url}`} className={cn('link')}>
+      {/* <Link to={`${url}`} className={cn('link')}>
+        <Button theme='orange'>See product</Button>
+      </Link> */}
+      <Link to={`${data.id}`} className={cn('link')}>
         <Button theme='orange'>See product</Button>
       </Link>
     </div>

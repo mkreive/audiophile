@@ -10,7 +10,7 @@ export * from './Menu';
 export * from './MobileNavigation';
 export * from './Navigation';
 export * from './Paragraph';
-export * from './Product';
+export * from './ProductSection';
 export * from './ProductsSection';
 export * from './List';
 export * from './Image';

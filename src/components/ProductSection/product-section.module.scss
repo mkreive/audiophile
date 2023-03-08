@@ -1,0 +1,14 @@
+@import '../../sass/global.scss';
+
+.container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16rem;
+  align-items: center;
+
+  @include respond(tablet) {
+    gap: 12rem;
+  }
+}

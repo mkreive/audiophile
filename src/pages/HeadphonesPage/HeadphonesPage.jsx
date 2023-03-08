@@ -14,6 +14,7 @@ export default function HeadphonesPage() {
         <title>{`Audiophile - ${pageData.pageTitle}`}</title>
       </Helmet>
       <Banner title={pageData.pageTitle} />
+
       <MainLayout>
         <ProductsSection data={pageData.products} />
         <Menu />
