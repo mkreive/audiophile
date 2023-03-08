@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.list-item {
+  list-style: none;
+  display: flex;
+  gap: var(--spacer-xl);
+
+  &__count {
+    font-size: var(--font-size-text);
+    color: var(--color-primary);
+    font-weight: var(--font-weight-bold);
+  }
+
+  &__name {
+    font-size: var(--font-size-text);
+    color: var(--color-black);
+    font-weight: var(--font-weight-medium);
+    opacity: 0.5;
+  }
+}

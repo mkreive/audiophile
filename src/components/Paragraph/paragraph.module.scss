@@ -21,6 +21,13 @@ p {
   opacity: 0.5;
 }
 
+.black--bold {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-black);
+  letter-spacing: var(--letter-spacing-small);
+}
+
 .gray {
   color: var(--color-white);
   opacity: 0.5;

@@ -1,0 +1,183 @@
+{
+  "pageTitle": "Product",
+  "article": {
+    "id": "art-0001",
+    "heading": "Bringing you the best audio gear",
+    "headingWord": "best",
+    "text": "Located at the heart of New York City, Audiophile is the premier store for high end headphones, earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration rooms available for you to browse and experience a wide range of our products. Stop by our store to meet some of the fantastic people who make Audiophile the best place to buy your portable audio equipment.",
+    "photo": "https://res.cloudinary.com/kreiva/image/upload/v1677674279/Audiophile/image-best-gear_zsi7hd.jpg",
+    "photoTablet": "https://res.cloudinary.com/kreiva/image/upload/v1677742642/Audiophile/image-best-gear_ljfobw.jpg",
+    "photoMobile": "https://res.cloudinary.com/kreiva/image/upload/v1677743194/Audiophile/image-best-gear_sru2kc.jpg"
+  },
+
+  "products": [
+    {
+      "id": "prod-031",
+      "name": "YX1 WIRELESS EARPHONES",
+      "new": true,
+      "price": 599,
+      "stock": 223,
+      "about": "Tailor your listening experience with bespoke dynamic drivers from the new YX1 Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.",
+      "images": {
+        "gallery": [
+          "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-gallery-3_nxfowu.jpg",
+          "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-gallery-2_emhsht.jpg",
+          "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-gallery-1_tqon5e.jpg"
+        ],
+        "productPage": {
+          "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-product_pwm9nq.jpg",
+          "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677836890/Audiophile/image-product_dykrfh.jpg",
+          "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-product_pwm9nq.jpg"
+        },
+        "allProductsPage": {
+          "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-product_pwm9nq.jpg",
+          "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677836890/Audiophile/image-category-page-preview_wvqrpf.jpg",
+          "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-product_pwm9nq.jpg"
+        },
+        "imagePreview": "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-category-page-preview_j4u8um.jpg"
+      }
+    },
+
+    {
+      "id": "prod-002",
+      "name": "XX99 Mark II Headphones",
+      "new": true,
+      "price": 2999,
+      "stock": 22,
+      "about": "The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.",
+      "features": [
+        "Featuring a genuine leather head strap and premium earcups, these headphones deliver superior comfort for those who like to enjoy endless listening. It includes intuitive controls designed for any situation. Whether you’re taking a business call or just in your own personal space, the auto on/off and pause features ensure that you’ll never miss a beat.",
+        "The advanced Active Noise Cancellation with built-in equalizer allow you to experience your audio world on your terms. It lets you enjoy your audio in peace, but quickly interact with your surroundings when you need to. Combined with Bluetooth 5. 0 compliant connectivity and 17 hour battery life, the XX99 Mark II headphones gives you superior sound, cutting-edge technology, and a modern design aesthetic."
+      ],
+      "inBox": [
+        { "count": 1, "name": "Headphone Unit" },
+        { "count": 2, "name": "Replacement Earcups" },
+        { "count": 1, "name": "User Manual" },
+        { "count": 1, "name": "3.5mm 5m Audio Cable" },
+        { "count": 1, "name": "Travel Bag" }
+      ],
+      "images": {
+        "gallery": [
+          "https://res.cloudinary.com/kreiva/image/upload/v1677754958/Audiophile/image-gallery-1_iskymh.jpg",
+          "https://res.cloudinary.com/kreiva/image/upload/v1677754958/Audiophile/image-gallery-2_pfymgd.jpg",
+          "https://res.cloudinary.com/kreiva/image/upload/v1677754958/Audiophile/image-gallery-3_cfct2e.jpg"
+        ],
+        "productPage": {
+          "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677754959/Audiophile/image-product_k8apzb.jpg",
+          "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835696/Audiophile/image-product_fboz8d.jpg",
+          "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677754959/Audiophile/image-product_k8apzb.jpg"
+        },
+        "allProductsPage": {
+          "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677754959/Audiophile/image-product_k8apzb.jpg",
+          "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835697/Audiophile/image-category-page-preview_bcta2i.jpg",
+          "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677754959/Audiophile/image-product_k8apzb.jpg"
+        },
+        "imagePreview": "https://res.cloudinary.com/kreiva/image/upload/v1677754958/Audiophile/image-category-page-preview_gqveok.jpg"
+      }
+    },
+    {
+      "id": "prod-003",
+      "name": "prXX99 Mark I Headphones",
+      "new": false,
+      "price": 1750,
+      "stock": 33,
+      "about": "As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.",
+      "images": {
+        "gallery": [
+          "https://res.cloudinary.com/kreiva/image/upload/v1677754864/Audiophile/image-gallery-1_va3pre.jpg",
+          "https://res.cloudinary.com/kreiva/image/upload/v1677754864/Audiophile/image-gallery-2_ugk18y.jpg",
+          "https://res.cloudinary.com/kreiva/image/upload/v1677754864/Audiophile/image-gallery-3_iboftz.jpg"
+        ],
+        "productPage": {
+          "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677754865/Audiophile/image-product_snwwzj.jpg",
+          "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835664/Audiophile/image-product_c4eha7.jpg",
+          "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677754865/Audiophile/image-product_snwwzj.jpg"
+        },
+        "allProductsPage": {
+          "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677754865/Audiophile/image-product_snwwzj.jpg",
+          "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835664/Audiophile/image-category-page-preview_yjxzjt.jpg",
+          "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677754865/Audiophile/image-product_snwwzj.jpg"
+        },
+        "imagePreview": "https://res.cloudinary.com/kreiva/image/upload/v1677754865/Audiophile/image-category-page-preview_pkgvjd.jpg"
+      }
+    },
+    {
+      "id": "prod-004",
+      "name": "XX59 Headphones",
+      "new": false,
+      "price": 899,
+      "stock": 444,
+      "about": "Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move.",
+      "images": {
+        "gallery": [
+          "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-gallery-1_udct6l.jpg",
+          "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-gallery-2_dn3mhr.jpg",
+          "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-gallery-3_johqjb.jpg"
+        ],
+        "productPage": {
+          "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-product_akxmgc.jpg",
+          "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835614/Audiophile/image-product_hplo7o.jpg",
+          "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-product_akxmgc.jpg"
+        },
+        "allProductsPage": {
+          "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-product_akxmgc.jpg",
+          "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835614/Audiophile/image-category-page-preview_up6lyg.jpg",
+          "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-product_akxmgc.jpg"
+        },
+        "imagePreview": "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-category-page-preview_abuoau.jpg"
+      }
+    },
+    {
+      "id": "prod-011",
+      "name": "ZX7 SPEAKER",
+      "new": true,
+      "price": 3500,
+      "stock": 54,
+      "about": "Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.",
+      "images": {
+        "gallery": [
+          "https://res.cloudinary.com/kreiva/image/upload/v1677836503/Audiophile/image-gallery-1_xjyj0x.jpg",
+          "https://res.cloudinary.com/kreiva/image/upload/v1677836503/Audiophile/image-gallery-2_acfm7s.jpg ",
+          "https://res.cloudinary.com/kreiva/image/upload/v1677836503/Audiophile/image-gallery-3_tc93qr.jpg"
+        ],
+        "productPage": {
+          "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677836503/Audiophile/image-product_asm5qj.jpg",
+          "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677836600/Audiophile/image-product_nar3d4.jpg",
+          "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677836503/Audiophile/image-product_asm5qj.jpg"
+        },
+        "allProductsPage": {
+          "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677836503/Audiophile/image-product_asm5qj.jpg",
+          "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677836600/Audiophile/image-category-page-preview_o8vel7.jpg",
+          "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677836503/Audiophile/image-product_asm5qj.jpg"
+        },
+        "imagePreview": "https://res.cloudinary.com/kreiva/image/upload/v1677836503/Audiophile/image-category-page-preview_bvnrbk.jpg"
+      }
+    },
+    {
+      "id": "prod-012",
+      "name": "ZX9 SPEAKER",
+      "new": false,
+      "price": 4500,
+      "stock": 33,
+      "about": "Stream high quality sound wirelessly with minimal loss. The ZX7 bookshelf speaker uses high-end audiophile components that represents the top of the line powered speakers for home or studio use.",
+      "images": {
+        "gallery": [
+          "https://res.cloudinary.com/kreiva/image/upload/v1677836731/Audiophile/image-gallery-1_b9baig.jpg",
+          "https://res.cloudinary.com/kreiva/image/upload/v1677836731/Audiophile/image-gallery-2_qom9wn.jpg ",
+          "https://res.cloudinary.com/kreiva/image/upload/v1677836731/Audiophile/image-gallery-3_eifng6.jpg"
+        ],
+        "productPage": {
+          "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677836731/Audiophile/image-product_rriqsb.jpg",
+          "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677836600/Audiophile/image-product_nar3d4.jpg",
+          "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677836731/Audiophile/image-product_rriqsb.jpg"
+        },
+        "allProductsPage": {
+          "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677836731/Audiophile/image-product_rriqsb.jpg",
+          "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677836795/Audiophile/image-category-page-preview_bgvbac.jpg",
+          "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677836731/Audiophile/image-product_rriqsb.jpg"
+        },
+        "imagePreview": "https://res.cloudinary.com/kreiva/image/upload/v1677836731/Audiophile/image-category-page-preview_ea7pol.jpg"
+      }
+    }
+  ]
+}

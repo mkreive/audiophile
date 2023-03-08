@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet';
 import classNames from 'classnames/bind';
 import styles from './earphones-page.module.scss';
 import pageData from './pageData.json';
-import { Banner, Menu, ArticleSection, Products } from 'components';
+import { Banner, Menu, ArticleSection, ProductsSection } from 'components';
 import { MainLayout } from 'layouts';
 
 const cn = classNames.bind(styles);
@@ -15,7 +15,7 @@ export default function EarphonesPage() {
       </Helmet>
       <Banner title={pageData.pageTitle} />
       <MainLayout>
-        <Products data={pageData.products} />
+        <ProductsSection data={pageData.products} />
         <Menu />
         <ArticleSection article={pageData.article} />
       </MainLayout>

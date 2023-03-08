@@ -1,0 +1,29 @@
+@import '../../sass/global.scss';
+
+.container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16rem;
+  align-items: center;
+
+  @include respond(tablet) {
+    gap: 12rem;
+  }
+}
+
+.product {
+  display: flex;
+  gap: 13rem;
+  justify-content: space-between;
+  align-items: center;
+
+  @include respond(tablet) {
+    gap: 6.9rem;
+  }
+
+  @include respond(phone) {
+    flex-direction: column;
+  }
+}

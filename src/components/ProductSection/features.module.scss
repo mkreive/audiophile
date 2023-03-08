@@ -1,0 +1,31 @@
+@import '../../sass/global.scss';
+
+.container {
+  display: flex;
+  gap: 13rem;
+  justify-content: space-between;
+
+  @include respond(tablet) {
+    flex-direction: column;
+    gap: 12rem;
+  }
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacer-xxl);
+  min-width: 35rem;
+
+  &:last-child {
+    @include respond(tablet) {
+      flex-direction: row;
+      gap: 40%;
+    }
+
+    @include respond(phone) {
+      flex-direction: column;
+      gap: 2.4rem;
+    }
+  }
+}

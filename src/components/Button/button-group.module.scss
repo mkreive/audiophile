@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  gap: var(--spacer-m);
+  align-items: center;
+  margin-top: var(--spacer-m);
+}
+
+.counter {
+  display: flex;
+  align-items: baseline;
+  cursor: pointer;
+  background-color: var(--color-gray-light);
+  padding: var(--spacer-m) var(--spacer-l);
+  gap: var(--spacer-xl);
+
+  &__add,
+  &__minus,
+  &__number {
+    font-size: var(--font-size-xsmall);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-black);
+    letter-spacing: var(--letter-spacing-medium);
+  }
+
+  &__add,
+  &__minus {
+    opacity: 0.25;
+
+    &:hover {
+      color: var(--color-primary);
+      opacity: 1;
+    }
+  }
+}

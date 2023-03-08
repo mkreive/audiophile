@@ -1,0 +1,30 @@
+@import '../../sass/global.scss';
+
+.container {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+
+  @include respond(phone) {
+    flex-direction: column;
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    @include respond(tablet) {
+      gap: 2rem;
+    }
+  }
+
+  @include respond(tablet) {
+    gap: 1.8rem;
+  }
+}
+
+.img {
+  border-radius: 0.8rem;
+  width: 100%;
+}

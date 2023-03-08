@@ -16,43 +16,117 @@
       "id": "prod-002",
       "name": "XX99 Mark II Headphones",
       "new": true,
+      "price": 2999,
+      "stock": 22,
       "about": "The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.",
-      "imageProduct": "https://res.cloudinary.com/kreiva/image/upload/v1677754959/Audiophile/image-product_k8apzb.jpg",
-      "imageProductTablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835697/Audiophile/image-category-page-preview_bcta2i.jpg",
-      "imageGalleryPreview": "https://res.cloudinary.com/kreiva/image/upload/v1677754958/Audiophile/image-category-page-preview_gqveok.jpg",
-      "imageGallery": [
-        "https://res.cloudinary.com/kreiva/image/upload/v1677754958/Audiophile/image-gallery-1_iskymh.jpg",
-        "https://res.cloudinary.com/kreiva/image/upload/v1677754958/Audiophile/image-gallery-2_pfymgd.jpg",
-        "https://res.cloudinary.com/kreiva/image/upload/v1677754958/Audiophile/image-gallery-3_cfct2e.jpg"
-      ]
-    },
-    {
-      "id": "prod-003",
-      "name": "prXX99 Mark I Headphones",
-      "new": false,
-      "about": "As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.",
-      "imageProduct": "https://res.cloudinary.com/kreiva/image/upload/v1677754865/Audiophile/image-product_snwwzj.jpg",
-      "imageProductTablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835664/Audiophile/image-category-page-preview_yjxzjt.jpg",
-      "imageGalleryPreview": "https://res.cloudinary.com/kreiva/image/upload/v1677754865/Audiophile/image-category-page-preview_pkgvjd.jpg",
-      "imageGallery": [
-        "https://res.cloudinary.com/kreiva/image/upload/v1677754864/Audiophile/image-gallery-1_va3pre.jpg",
-        "https://res.cloudinary.com/kreiva/image/upload/v1677754864/Audiophile/image-gallery-2_ugk18y.jpg",
-        "https://res.cloudinary.com/kreiva/image/upload/v1677754864/Audiophile/image-gallery-3_iboftz.jpg"
-      ]
+      "features": [
+        "Featuring a genuine leather head strap and premium earcups, these headphones deliver superior comfort for those who like to enjoy endless listening. It includes intuitive controls designed for any situation. Whether you’re taking a business call or just in your own personal space, the auto on/off and pause features ensure that you’ll never miss a beat.",
+        "The advanced Active Noise Cancellation with built-in equalizer allow you to experience your audio world on your terms. It lets you enjoy your audio in peace, but quickly interact with your surroundings when you need to. Combined with Bluetooth 5. 0 compliant connectivity and 17 hour battery life, the XX99 Mark II headphones gives you superior sound, cutting-edge technology, and a modern design aesthetic."
+      ],
+      "inBox": [
+        { "count": 1, "name": "Headphone Unit" },
+        { "count": 2, "name": "Replacement Earcups" },
+        { "count": 1, "name": "User Manual" },
+        { "count": 1, "name": "3.5mm 5m Audio Cable" },
+        { "count": 1, "name": "Travel Bag" }
+      ],
+
+      "images": {
+        "gallery": [
+          "https://res.cloudinary.com/kreiva/image/upload/v1677754958/Audiophile/image-gallery-1_iskymh.jpg",
+          "https://res.cloudinary.com/kreiva/image/upload/v1677754958/Audiophile/image-gallery-2_pfymgd.jpg",
+          "https://res.cloudinary.com/kreiva/image/upload/v1677754958/Audiophile/image-gallery-3_cfct2e.jpg"
+        ],
+        "productPage": {
+          "alt": "XX99 Mark II Headphones",
+          "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677754959/Audiophile/image-product_k8apzb.jpg",
+          "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835696/Audiophile/image-product_fboz8d.jpg",
+          "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677754959/Audiophile/image-product_k8apzb.jpg"
+        },
+        "allProductsPage": {
+          "alt": "XX99 Mark II Headphones",
+          "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677754959/Audiophile/image-product_k8apzb.jpg",
+          "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835697/Audiophile/image-category-page-preview_bcta2i.jpg",
+          "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677754959/Audiophile/image-product_k8apzb.jpg"
+        },
+        "imagePreview": "https://res.cloudinary.com/kreiva/image/upload/v1677754958/Audiophile/image-category-page-preview_gqveok.jpg"
+      }
     },
     {
       "id": "prod-004",
       "name": "XX59 Headphones",
       "new": false,
+      "price": 899,
+      "stock": 444,
       "about": "Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move.",
-      "imageProduct": "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-product_akxmgc.jpg",
-      "imageProductTablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835614/Audiophile/image-category-page-preview_up6lyg.jpg",
-      "imageGalleryPreview": "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-category-page-preview_abuoau.jpg",
-      "imageGallery": [
-        "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-gallery-1_udct6l.jpg",
-        "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-gallery-2_dn3mhr.jpg",
-        "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-gallery-3_johqjb.jpg"
-      ]
+      "inBox": [
+        { "count": 1, "name": "Headphone Unit" },
+        { "count": 2, "name": "Replacement Earcups" },
+        { "count": 1, "name": "User Manual" },
+        { "count": 1, "name": "3.5mm 5m Audio Cable" },
+        { "count": 1, "name": "Travel Bag" }
+      ],
+      "features": [
+        "These headphones have been created from durable, high-quality materials tough enough to take anywhere. Its compact folding design fuses comfort and minimalist style making it perfect for travel. Flawless transmission is assured by the latest wireless technology engineered for audio synchronization with videos.",
+        "More than a simple pair of headphones, this headset features a pair of built-in microphones for clear, hands-free calling when paired with a compatible smartphone. Controlling music and calls is also intuitive thanks to easy-access touch buttons on the earcups. Regardless of how you use the XX59 headphones, you can do so all day thanks to an impressive 30-hour battery life that can be rapidly recharged via USB-C."
+      ],
+      "images": {
+        "gallery": [
+          "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-gallery-1_udct6l.jpg",
+          "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-gallery-2_dn3mhr.jpg",
+          "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-gallery-3_johqjb.jpg"
+        ],
+        "productPage": {
+          "alt": "XX59 Headphones",
+          "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-product_akxmgc.jpg",
+          "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835614/Audiophile/image-product_hplo7o.jpg",
+          "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-product_akxmgc.jpg"
+        },
+        "allProductsPage": {
+          "alt": "XX59 Headphones",
+          "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-product_akxmgc.jpg",
+          "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835614/Audiophile/image-category-page-preview_up6lyg.jpg",
+          "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-product_akxmgc.jpg"
+        },
+        "imagePreview": "https://res.cloudinary.com/kreiva/image/upload/v1677755219/Audiophile/image-category-page-preview_abuoau.jpg"
+      }
+    },
+    {
+      "id": "prod-003",
+      "name": "prXX99 Mark I Headphones",
+      "new": false,
+      "price": 1750,
+      "stock": 33,
+      "about": "As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.",
+      "inBox": [
+        { "count": 1, "name": "Headphone Unit" },
+        { "count": 2, "name": "Replacement Earcups" },
+        { "count": 1, "name": "User Manual" },
+        { "count": 1, "name": "3.5mm 5m Audio Cable" }
+      ],
+      "features": [
+        "As the headphones all others are measured against, the XX99 Mark I demonstrates over five decades of audio expertise, redefining the critical listening experience. This pair of closed-back headphones are made of industrial, aerospace-grade materials to emphasize durability at a relatively light weight of 11 oz.",
+        "From the handcrafted microfiber ear cushions to the robust metal headband with inner damping element, the components work together to deliver comfort and uncompromising sound. Its closed-back design delivers up to 27 dB of passive noise cancellation, reducing resonance by reflecting sound to a dedicated absorber. For connectivity, a specially tuned cable is included with a balanced gold connector."
+      ],
+      "images": {
+        "gallery": [
+          "https://res.cloudinary.com/kreiva/image/upload/v1677754864/Audiophile/image-gallery-1_va3pre.jpg",
+          "https://res.cloudinary.com/kreiva/image/upload/v1677754864/Audiophile/image-gallery-2_ugk18y.jpg",
+          "https://res.cloudinary.com/kreiva/image/upload/v1677754864/Audiophile/image-gallery-3_iboftz.jpg"
+        ],
+        "productPage": {
+          "alt": "prXX99 Mark I Headphones",
+          "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677754865/Audiophile/image-product_snwwzj.jpg",
+          "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835664/Audiophile/image-product_c4eha7.jpg",
+          "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677754865/Audiophile/image-product_snwwzj.jpg"
+        },
+        "allProductsPage": {
+          "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677754865/Audiophile/image-product_snwwzj.jpg",
+          "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677835664/Audiophile/image-category-page-preview_yjxzjt.jpg",
+          "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677754865/Audiophile/image-product_snwwzj.jpg"
+        },
+        "imagePreview": "https://res.cloudinary.com/kreiva/image/upload/v1677754865/Audiophile/image-category-page-preview_pkgvjd.jpg"
+      }
     }
   ]
 }

@@ -8,7 +8,7 @@ import {
 import classNames from 'classnames/bind';
 import styles from './app.module.scss';
 import { RootLayout } from 'layouts';
-import { HomePage, EarphonesPage, HeadphonesPage, SpeakersPage } from 'pages';
+import { HomePage, EarphonesPage, HeadphonesPage, SpeakersPage, ProductPage } from 'pages';
 
 const cn = classNames.bind(styles);
 
@@ -17,10 +17,18 @@ const router = createBrowserRouter(
     <Route path='/' element={<RootLayout />}>
       <Route index element={<HomePage />} />
       <Route path='/home' element={<HomePage />} />
-      <Route path='/earphones/*' element={<EarphonesPage />} />
-      <Route path='/headphones/*' element={<HeadphonesPage />} />
-      <Route path='/speakers/*' element={<SpeakersPage />} />
-      {/* <Route path='/product/*' element={<ProductPage />} /> */}
+      <Route path='/headphones'>
+        <Route index element={<HeadphonesPage />} />
+        <Route path=':id' element={<ProductPage />} />
+      </Route>
+      <Route path='/earphones'>
+        <Route index element={<EarphonesPage />} />
+        <Route path=':id' element={<ProductPage />} />
+      </Route>
+      <Route path='/speakers'>
+        <Route index element={<SpeakersPage />} />
+        <Route path=':id' element={<ProductPage />} />
+      </Route>
       {/* <Route path='/checkout' element={<CheckoutPage />} /> */}
       {/* <Route path='*' element={<NotFoundPage />} /> */}
     </Route>,
