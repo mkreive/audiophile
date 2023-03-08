@@ -12,3 +12,18 @@
     gap: 12rem;
   }
 }
+
+.product {
+  display: flex;
+  gap: 13rem;
+  justify-content: space-between;
+  align-items: center;
+
+  @include respond(tablet) {
+    gap: 6.9rem;
+  }
+
+  @include respond(phone) {
+    flex-direction: column;
+  }
+}

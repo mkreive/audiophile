@@ -5,6 +5,10 @@
   gap: 3rem;
   justify-content: space-between;
 
+  @include respond(phone) {
+    flex-direction: column;
+  }
+
   &__left {
     display: flex;
     flex-direction: column;

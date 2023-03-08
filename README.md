@@ -57,8 +57,7 @@ Users should be able to:
 
 ### Continued development/Planning
 
-19. product detail page components
-20. product detail page
+20. product detail page finishing / banner line bug / all link btns / product suggestions
 21. not found page
 22. fix bugs/cosmetic issues
 
