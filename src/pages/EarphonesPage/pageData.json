@@ -16,15 +16,34 @@
       "id": "prod-031",
       "name": "YX1 WIRELESS EARPHONES",
       "new": true,
+      "price": 599,
+      "stock": 223,
       "about": "Tailor your listening experience with bespoke dynamic drivers from the new YX1 Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.",
-      "imageProduct": "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-product_pwm9nq.jpg",
-      "imageProductTablet": "https://res.cloudinary.com/kreiva/image/upload/v1677836890/Audiophile/image-category-page-preview_wvqrpf.jpg",
-      "imageGalleryPreview": "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-category-page-preview_j4u8um.jpg",
-      "imageGallery": [
-        "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-gallery-3_nxfowu.jpg",
-        "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-gallery-2_emhsht.jpg",
-        "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-gallery-1_tqon5e.jpg"
-      ]
+      "inBox": [
+        { "count": 2, "name": "Earphone Unit" },
+        { "count": 6, "name": "Multi-size Earplugs" },
+        { "count": 1, "name": "User Manual" },
+        { "count": 1, "name": "USB-C Charging Cable" },
+        { "count": 1, "name": "Travel Pouch" }
+      ],
+      "images": {
+        "gallery": [
+          "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-gallery-3_nxfowu.jpg",
+          "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-gallery-2_emhsht.jpg",
+          "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-gallery-1_tqon5e.jpg"
+        ],
+        "productPage": {
+          "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-product_pwm9nq.jpg",
+          "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677836890/Audiophile/image-product_dykrfh.jpg",
+          "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-product_pwm9nq.jpg"
+        },
+        "allProductsPage": {
+          "desktop": "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-product_pwm9nq.jpg",
+          "tablet": "https://res.cloudinary.com/kreiva/image/upload/v1677836890/Audiophile/image-category-page-preview_wvqrpf.jpg",
+          "mobile": "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-product_pwm9nq.jpg"
+        },
+        "imagePreview": "https://res.cloudinary.com/kreiva/image/upload/v1677754350/Audiophile/image-category-page-preview_j4u8um.jpg"
+      }
     }
   ]
 }

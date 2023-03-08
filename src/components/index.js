@@ -13,3 +13,6 @@ export * from './Paragraph';
 export * from './Product';
 export * from './ProductsSection';
 export * from './List';
+export * from './Image';
+export * from './SeeProduct';
+export * from './BuyProduct';
