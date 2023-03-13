@@ -1,1 +1,1 @@
-// export * from './useScrollToId';
+export * from './getRandom';
