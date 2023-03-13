@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import classNames from 'classnames/bind';
 import styles from './highlights-section.module.scss';
 import PropTypes from 'prop-types';
@@ -14,7 +15,9 @@ export default function HighlightProduct({ product }) {
       <Heading tag='h5' theme='black'>
         {name}
       </Heading>
-      <Button theme='orange'>See Product</Button>
+      <Link to={`${product.id}`} className={cn('link')}>
+        <Button theme='orange'>See product</Button>
+      </Link>
     </div>
   );
 }
