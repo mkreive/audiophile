@@ -57,7 +57,6 @@ Users should be able to:
 
 ### Continued development/Planning
 
-21. not found page
 22. fix bugs/cosmetic issues
 
 ---
