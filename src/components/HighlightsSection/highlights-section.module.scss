@@ -1,0 +1,43 @@
+@import '../../sass/global.scss';
+
+.container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+  align-items: center;
+
+  &__products {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 3rem;
+
+    @include respond(tablet) {
+      gap: var(--spacer-s);
+    }
+
+    @include respond(phone) {
+      flex-direction: column;
+      gap: var(--spacer-xxxxl);
+    }
+  }
+
+  @include respond(tablet) {
+    gap: var(--spacer-xxxxl);
+  }
+
+  @include respond(phone) {
+    gap: 4rem;
+  }
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacer-xxl);
+  flex: 1;
+  align-items: center;
+  text-align: center;
+}

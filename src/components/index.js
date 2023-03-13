@@ -16,3 +16,4 @@ export * from './List';
 export * from './Image';
 export * from './SeeProduct';
 export * from './BuyProduct';
+export * from './HighlightsSection';
