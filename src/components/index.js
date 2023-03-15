@@ -1,7 +1,6 @@
 export * from './ArticleSection';
 export * from './Banner';
 export * from './Button';
-export * from './Cart';
 export * from './DropdownMenu';
 export * from './Heading';
 export * from './Hero';
@@ -17,3 +16,5 @@ export * from './Image';
 export * from './SeeProduct';
 export * from './BuyProduct';
 export * from './HighlightsSection';
+export * from './CounterBtn';
+export * from './Cart';

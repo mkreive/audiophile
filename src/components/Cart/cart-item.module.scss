@@ -1,0 +1,20 @@
+@import '../../sass/global.scss';
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__group {
+    display: flex;
+    gap: var(--spacer-m);
+    max-width: 55%;
+    align-items: center;
+    flex: 1;
+  }
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
