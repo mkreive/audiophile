@@ -28,6 +28,7 @@ export default function Header() {
       function handleClickOutside(event) {
         if (ref.current && !ref.current.contains(event.target)) {
           setDropMenuShown(false);
+          setCartOpen(false);
         }
       }
       document.addEventListener('mousedown', handleClickOutside);
@@ -48,7 +49,7 @@ export default function Header() {
         <CartIcon onClick={() => setCartOpen(!cartOpen)} />
       </div>
       <DropdownMenu visible={dropMenuShown} mobile={isMobile} onClick={handleMenuClick} />
-      <Cart visible={cartOpen} onClick={handleCartActions} />
+      {cartOpen && <Cart onClick={handleCartActions} />}
       {(dropMenuShown && <Modal />) || (cartOpen && <Modal />)}
     </header>
   );
