@@ -73,3 +73,18 @@
     opacity: 1;
   }
 }
+
+.underlined {
+  font-size: var(--font-size-text);
+  opacity: 0.5;
+  text-decoration: underline;
+  background-color: transparent;
+  font-weight: var(--font-weight-medium);
+  text-transform: none;
+  padding: 0;
+
+  &:hover {
+    color: var(--color-primary);
+    opacity: 1;
+  }
+}

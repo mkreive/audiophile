@@ -28,6 +28,19 @@ p {
   letter-spacing: var(--letter-spacing-small);
 }
 
+.bold--small {
+  font-size: var(--font-size-text);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-black);
+}
+
+.bold--smallest {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-black);
+  opacity: 0.5;
+}
+
 .gray {
   color: var(--color-white);
   opacity: 0.5;

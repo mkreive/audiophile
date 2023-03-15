@@ -1,11 +1,12 @@
 import classNames from 'classnames/bind';
 import styles from './cart.module.scss';
+import PropTypes from 'prop-types';
 
 const cn = classNames.bind(styles);
 
-export default function CartIcon() {
+export default function CartIcon({ onClick }) {
   return (
-    <div className={cn('icon')}>
+    <div className={cn('icon')} onClick={onClick}>
       <svg
         width='24'
         height='20'
@@ -23,3 +24,7 @@ export default function CartIcon() {
     </div>
   );
 }
+
+CartIcon.propTypes = {
+  onClick: PropTypes.func,
+};

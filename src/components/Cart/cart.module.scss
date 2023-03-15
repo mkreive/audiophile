@@ -1,8 +1,44 @@
 @import '../../sass/global.scss';
 
 .container {
-  position: relative;
+  position: absolute;
+  top: 13rem;
+  right: 10%;
+  height: auto;
+  background-color: var(--color-white);
+  border-radius: var(--border-radius-large);
+  padding: var(--spacer-xxl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacer-xxl);
+
+  &__group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  & > button {
+    width: 100%;
+  }
+
+  @include respond(tablet) {
+    right: 5%;
+  }
+
+  @include respond(phone) {
+    width: 90%;
+    padding: var(--spacer-xl);
+  }
 }
+
+.products {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: var(--spacer-xl);
+}
+
 .icon {
   line-height: 0;
   cursor: pointer;
