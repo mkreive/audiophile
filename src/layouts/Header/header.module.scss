@@ -22,7 +22,6 @@
     @include respond(tablet) {
       justify-content: flex-start;
       width: 90%;
-      border-bottom: none;
     }
 
     @include respond(phone) {

@@ -57,11 +57,11 @@ Users should be able to:
 
 ### Continued development/Planning
 
-22. fix bugs/cosmetic issues
+22. cart
 
 ---
 
-23. cart and context
+23. context
 24. checkout
 
 ---

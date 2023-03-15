@@ -2,15 +2,15 @@ import { useState, useRef, useEffect } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import classNames from 'classnames/bind';
 import styles from './header.module.scss';
-import { Logo, CartIcon, Navigation, MobileNavigation, DropdownMenu } from 'components';
+import { Logo, CartIcon, Navigation, MobileNavigation, DropdownMenu, Cart } from 'components';
 import { Modal } from 'layouts';
 
 const cn = classNames.bind(styles);
 
 export default function Header() {
   const wrapperRef = useRef(null);
-  useOutsideAlerter(wrapperRef);
   const [dropMenuShown, setDropMenuShown] = useState(false);
+  const [cartOpen, setCartOpen] = useState(false);
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1024px)' });
   const isMobile = useMediaQuery({ query: '(max-width: 700px)' });
 
@@ -18,6 +18,11 @@ export default function Header() {
     setDropMenuShown(event.checked);
   };
 
+  const handleCartActions = function () {
+    console.log('carto vidui');
+  };
+
+  useOutsideAlerter(wrapperRef);
   function useOutsideAlerter(ref) {
     useEffect(() => {
       function handleClickOutside(event) {
@@ -40,10 +45,11 @@ export default function Header() {
         )}
         <Logo />
         {!isTabletOrMobile && <Navigation />}
-        <CartIcon />
+        <CartIcon onClick={() => setCartOpen(!cartOpen)} />
       </div>
       <DropdownMenu visible={dropMenuShown} mobile={isMobile} onClick={handleMenuClick} />
-      {dropMenuShown && <Modal />}
+      <Cart visible={cartOpen} onClick={handleCartActions} />
+      {(dropMenuShown && <Modal />) || (cartOpen && <Modal />)}
     </header>
   );
 }
