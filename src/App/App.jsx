@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import classNames from 'classnames/bind';
 import styles from './app.module.scss';
+import CartProvider from '../context/CartProvider';
 import { RootLayout } from 'layouts';
 import {
   HomePage,
@@ -44,13 +45,15 @@ const router = createBrowserRouter(
 
 export default function App() {
   return (
-    <div className={cn('container')}>
-      <Helmet>
-        <title>Audiophile</title>
-        <meta name='description' content='App Description' />
-        <meta name='theme-color' content='#008f68' />
-      </Helmet>
-      <RouterProvider router={router} />
-    </div>
+    <CartProvider>
+      <div className={cn('container')}>
+        <Helmet>
+          <title>Audiophile</title>
+          <meta name='description' content='App Description' />
+          <meta name='theme-color' content='#008f68' />
+        </Helmet>
+        <RouterProvider router={router} />
+      </div>
+    </CartProvider>
   );
 }

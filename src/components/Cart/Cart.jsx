@@ -1,10 +1,14 @@
+import { useContext } from 'react';
 import classNames from 'classnames/bind';
 import styles from './cart.module.scss';
+import CartContext from '../../context/CartContext';
 import { Button, CartItem, Heading, Paragraph } from 'components';
 
 const cn = classNames.bind(styles);
 
 export default function Cart() {
+  const cartCtx = useContext(CartContext);
+  console.log(cartCtx);
   const product = {
     id: 'prod-003',
     name: 'XX99 MK I',
